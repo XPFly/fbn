@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ecjtu.fbn.orm.mapper.ArticleMapper">
+
+    <resultMap id="result" type="com.ecjtu.fbn.orm.domain.Article">
+        <id property="uuid" column="UUID"/>
+        <result property="title" column="TITLE"/>
+        <result property="subtitle" column="SUBTITLE"/>
+        <result property="author" column="AUTHOR"/>
+        <result property="type" column="TYPE"/>
+        <result property="tag" column="TAG"/>
+        <result property="articleImage" column="ARTICLE_IMAGE"/>
+        <result property="summary" column="SUMMARY"/>
+        <result property="content" column="CONTENT"/>
+        <result property="clickNumber" column="CLICK_NUMBER"/>
+        <result property="commentNumber" column="COMMENT_NUMBER"/>
+        <result property="createTime" column="CREATE_TIME"/>
+        <result property="updateTime" column="UPDATE_TIME"/>
+        <result property="operator" column="OPERATOR"/>
+    </resultMap>
+
+    <sql id="columns">
+        UUID,TITLE,SUBTITLE,AUTHOR,TYPE,TAG,ARTICLE_IMAGE,SUMMARY,CONTENT,CLICK_NUMBER,COMMENT_NUMBER,CREATE_TIME,UPDATE_TIME,OPERATOR
+    </sql>
+
+    <sql id="dynamicWhere">
+        <where>
+            <if test="@Ognl@isNotEmpty(title)">AND TITLE LIKE '%${title}%'</if>
+            <if test="@Ognl@isNotEmpty(type)">AND TYPE LIKE '%${type}%'</if>
+            <if test="@Ognl@isNotEmpty(tag)">AND TAG LIKE '%${tag}%'</if>
+        </where>
+    </sql>
+
+    <!--查询：查询所有符合条件的记录-->
+    <select id="findList" resultMap="result" parameterType="com.ecjtu.fbn.orm.domain.Article">
+        SELECT
+        <include refid="columns"/>
+        FROM
+        BBM.T_BBM_ARTICLE_INFO
+        <include refid="dynamicWhere"/>
+        <if test='orderByType=="0"'> ORDER BY CREATE_TIME DESC</if>
+        <if test='orderByType=="1"'> ORDER BY CREATE_TIME ASC</if>
+    </select>
+
+    <select id="findOne" resultMap="result" parameterType="java.lang.String">
+        SELECT
+        <include refid="columns"/>
+        FROM
+        BBM.T_BBM_ARTICLE_INFO
+        WHERE
+        UUID = #{uuid}
+    </select>
+
+    <select id="findAll" resultMap="result">
+        SELECT
+        <include refid="columns"/>
+        FROM
+        BBM.T_BBM_ARTICLE_INFO
+    </select>
+
+    <select id="findAllByType" resultMap="result">
+        SELECT
+        <include refid="columns"/>
+        FROM
+        BBM.T_BBM_ARTICLE_INFO
+        WHERE
+        TYPE = #{type}
+    </select>
+
+    <select id="count" resultType="java.lang.Integer" parameterType="com.ecjtu.fbn.orm.domain.Article">
+        SELECT
+        COUNT(1)
+        FROM BBM.T_BBM_ARTICLE_INFO
+        <include refid="dynamicWhere"/>
+    </select>
+
+    <!--查询点击量排行前十的记录-->
+    <select id="maxClickNumber" resultMap="result" >
+        SELECT T.UUID,T.TITLE,T.CLICK_NUMBER
+        FROM BBM.T_BBM_ARTICLE_INFO T
+        ORDER BY T.CLICK_NUMBER DESC
+        LIMIT 10
+    </select>
+
+    <!--更新点击量-->
+    <update id="increaseClickNumber" parameterType="java.lang.String">
+        UPDATE
+        BBM.T_BBM_ARTICLE_INFO T
+        SET
+        T.CLICK_NUMBER = CLICK_NUMBER + 1
+        WHERE
+        T.UUID = #{uuid}
+    </update>
+
+    <!--更新评论量-->
+    <update id="increaseCommentNumber" parameterType="java.lang.String">
+        UPDATE
+        BBM.T_BBM_ARTICLE_INFO T
+        SET
+        T.COMMENT_NUMBER = COMMENT_NUMBER + 1
+        WHERE
+        T.UUID = #{uuid}
+    </update>
+</mapper>

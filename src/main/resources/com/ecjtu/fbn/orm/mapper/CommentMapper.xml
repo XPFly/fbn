@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ecjtu.fbn.orm.mapper.CommentMapper">
+    <resultMap id="result" type="com.ecjtu.fbn.orm.domain.Comment">
+        <id column="UUID" property="uuid"/>
+        <result column="ARTICLE_UUID" property="articleUuid"/>
+        <result column="USER_UUID" property="userUuid"/>
+        <result column="COMMENT" property="comment"/>
+        <result column="CREATE_TIME" property="createTime"/>
+    </resultMap>
+
+    <sql id="column">
+        UUID,ARTICLE_UUID,USER_UUID,COMMENT,CREATE_TIME
+    </sql>
+
+    <select id="findById" resultMap="result" parameterType="java.lang.String">
+        SELECT
+        <include refid="column"/>
+        FROM BBM.T_BBM_COMMENT
+        WHERE ARTICLE_UUID = #{articleUuid}
+    </select>
+
+    <insert id="save" parameterType="com.ecjtu.fbn.orm.domain.Comment">
+        INSERT INTO T_BBM_COMMENT
+        <trim prefix="(" suffix=")" suffixOverrides="," >
+            <if test="@Ognl@isNotEmpty(uuid)">
+                UUID,
+            </if>
+            <if test="@Ognl@isNotEmpty(articleUuid)">
+                ARTICLE_UUID,
+            </if>
+            <if test="@Ognl@isNotEmpty(userUuid)">
+                USER_UUID,
+            </if>
+            <if test="@Ognl@isNotEmpty(comment)">
+                COMMENT,
+            </if>
+            <if test="@Ognl@isNotEmpty(createTime)">
+                CREATE_TIME
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides="," >
+            <if test="@Ognl@isNotEmpty(uuid)">
+                #{uuid},
+            </if>
+            <if test="@Ognl@isNotEmpty(articleUuid)">
+                #{articleUuid},
+            </if>
+            <if test="@Ognl@isNotEmpty(userUuid)">
+                #{userUuid},
+            </if>
+            <if test="@Ognl@isNotEmpty(comment)">
+                #{comment},
+            </if>
+            <if test="@Ognl@isNotEmpty(createTime)">
+                #{createTime}
+            </if>
+        </trim>
+    </insert>
+</mapper>

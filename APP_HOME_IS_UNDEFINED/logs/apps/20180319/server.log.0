@@ -1,0 +1,1199 @@
+|2018-03-19 18:06:40.218||INFO -[Starting StartApp on DESKTOP-4I94FEJ with PID 14028 (E:\workspace\GraduationDesign\doing\idea\fbn\out\production\classes started by Flyer in E:\workspace\GraduationDesign\doing\idea\fbn)]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-19 18:06:40.227||DEBUG-[Running with Spring Boot v1.4.7.RELEASE, Spring v4.3.9.RELEASE]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-19 18:06:40.227||INFO -[No active profile set, falling back to default profiles: default]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-19 18:06:40.303||INFO -[Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@595b007d: startup date [Mon Mar 19 18:06:40 CST 2018]; root of context hierarchy]-[o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext]-[main]
+|2018-03-19 18:06:40.394||DEBUG-[Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property]-[org.jboss.logging]-[background-preinit]
+|2018-03-19 18:06:40.400||INFO -[HV000001: Hibernate Validator 5.2.5.Final]-[o.h.validator.internal.util.Version]-[background-preinit]
+|2018-03-19 18:06:40.452||DEBUG-[Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.]-[o.h.v.i.e.r.DefaultTraversableResolver]-[background-preinit]
+|2018-03-19 18:06:42.567||DEBUG-[Identified candidate component class: file [E:\workspace\GraduationDesign\doing\idea\fbn\out\production\classes\com\ecjtu\fbn\orm\mapper\ArticleMapper.class]]-[o.m.s.mapper.ClassPathMapperScanner]-[main]
+|2018-03-19 18:06:42.567||DEBUG-[Creating MapperFactoryBean with name 'articleMapper' and 'com.ecjtu.fbn.orm.mapper.ArticleMapper' mapperInterface]-[o.m.s.mapper.ClassPathMapperScanner]-[main]
+|2018-03-19 18:06:42.567||DEBUG-[Enabling autowire by type for MapperFactoryBean with name 'articleMapper'.]-[o.m.s.mapper.ClassPathMapperScanner]-[main]
+|2018-03-19 18:06:43.052||DEBUG-[Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.]-[o.h.v.i.e.r.DefaultTraversableResolver]-[main]
+|2018-03-19 18:06:43.054||DEBUG-[Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-19 18:06:43.055||DEBUG-[Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-19 18:06:43.057||DEBUG-[Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-19 18:06:43.060||DEBUG-[Trying to load META-INF/validation.xml for XML based Validator configuration.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-19 18:06:43.063||DEBUG-[Trying to load META-INF/validation.xml via user class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-19 18:06:43.065||DEBUG-[Trying to load META-INF/validation.xml via TCCL]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-19 18:06:43.065||DEBUG-[Trying to load META-INF/validation.xml via Hibernate Validator's class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-19 18:06:43.066||DEBUG-[No META-INF/validation.xml found. Using annotation based configuration only.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-19 18:06:43.504||INFO -[Tomcat initialized with port(s): 8081 (http)]-[o.s.b.c.e.t.TomcatEmbeddedServletContainer]-[main]
+|2018-03-19 18:06:43.515||INFO -[Starting service [Tomcat]]-[o.a.catalina.core.StandardService]-[main]
+|2018-03-19 18:06:43.516||INFO -[Starting Servlet Engine: Apache Tomcat/8.5.15]-[o.a.catalina.core.StandardEngine]-[main]
+|2018-03-19 18:06:43.849||INFO -[At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.]-[org.apache.jasper.servlet.TldScanner]-[localhost-startStop-1]
+|2018-03-19 18:06:43.852||INFO -[Initializing Spring embedded WebApplicationContext]-[o.a.c.c.C.[Tomcat].[localhost].[/]]-[localhost-startStop-1]
+|2018-03-19 18:06:43.852||INFO -[Root WebApplicationContext: initialization completed in 3549 ms]-[o.s.web.context.ContextLoader]-[localhost-startStop-1]
+|2018-03-19 18:06:43.984||INFO -[Mapping servlet: 'dispatcherServlet' to [/]]-[o.s.b.w.s.ServletRegistrationBean]-[localhost-startStop-1]
+|2018-03-19 18:06:43.987||INFO -[Mapping filter: 'characterEncodingFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-19 18:06:43.988||INFO -[Mapping filter: 'hiddenHttpMethodFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-19 18:06:43.988||INFO -[Mapping filter: 'httpPutFormContentFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-19 18:06:43.988||INFO -[Mapping filter: 'requestContextFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-19 18:06:44.404||DEBUG-[Parsed configuration file: 'class path resource [config/mybatis-config.xml]']-[o.m.spring.SqlSessionFactoryBean]-[main]
+|2018-03-19 18:06:44.405||DEBUG-[Property 'mapperLocations' was not specified or no matching resources found]-[o.m.spring.SqlSessionFactoryBean]-[main]
+|2018-03-19 18:06:44.709||DEBUG-[Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.]-[o.h.v.i.e.r.DefaultTraversableResolver]-[main]
+|2018-03-19 18:06:44.709||DEBUG-[Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-19 18:06:44.709||DEBUG-[Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-19 18:06:44.710||DEBUG-[Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-19 18:06:44.710||DEBUG-[Trying to load META-INF/validation.xml for XML based Validator configuration.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-19 18:06:44.710||DEBUG-[Trying to load META-INF/validation.xml via user class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-19 18:06:44.710||DEBUG-[Trying to load META-INF/validation.xml via TCCL]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-19 18:06:44.710||DEBUG-[Trying to load META-INF/validation.xml via Hibernate Validator's class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-19 18:06:44.711||DEBUG-[No META-INF/validation.xml found. Using annotation based configuration only.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-19 18:06:44.724||INFO -[Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@595b007d: startup date [Mon Mar 19 18:06:40 CST 2018]; root of context hierarchy]-[o.s.w.s.m.m.a.RequestMappingHandlerAdapter]-[main]
+|2018-03-19 18:06:44.788||INFO -[Mapped "{[/test]}" onto public java.lang.String com.ecjtu.fbn.StartApp.showArticle(org.springframework.ui.Model)]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-19 18:06:44.790||INFO -[Mapped "{[/fbn/article/test]}" onto public java.lang.String com.ecjtu.fbn.controller.ArticleController.test()]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-19 18:06:44.791||INFO -[Mapped "{[/fbn/article/detail/{uuid}]}" onto public java.lang.String com.ecjtu.fbn.controller.ArticleController.showArticle(java.lang.String,org.springframework.ui.Model)]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-19 18:06:44.791||INFO -[Mapped "{[/fbn/article/list/{typeId}]}" onto public java.lang.String com.ecjtu.fbn.controller.ArticleController.findList(java.lang.String,com.ecjtu.fbn.orm.domain.Article,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest)]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-19 18:06:44.791||INFO -[Mapped "{[/fbn/blog/home]}" onto public java.lang.String com.ecjtu.fbn.controller.BlogController.home(com.ecjtu.fbn.orm.domain.Article,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest)]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-19 18:06:44.793||INFO -[Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-19 18:06:44.794||INFO -[Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-19 18:06:44.818||INFO -[Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]-[o.s.w.s.h.SimpleUrlHandlerMapping]-[main]
+|2018-03-19 18:06:44.818||INFO -[Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]-[o.s.w.s.h.SimpleUrlHandlerMapping]-[main]
+|2018-03-19 18:06:44.847||INFO -[Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]-[o.s.w.s.h.SimpleUrlHandlerMapping]-[main]
+|2018-03-19 18:06:45.081||INFO -[Registering beans for JMX exposure on startup]-[o.s.j.e.a.AnnotationMBeanExporter]-[main]
+|2018-03-19 18:06:45.097||INFO -[Initializing ProtocolHandler ["http-nio-8081"]]-[o.a.coyote.http11.Http11NioProtocol]-[main]
+|2018-03-19 18:06:45.107||INFO -[Starting ProtocolHandler ["http-nio-8081"]]-[o.a.coyote.http11.Http11NioProtocol]-[main]
+|2018-03-19 18:06:45.133||INFO -[Using a shared selector for servlet write/read]-[o.a.tomcat.util.net.NioSelectorPool]-[main]
+|2018-03-19 18:06:45.162||INFO -[Tomcat started on port(s): 8081 (http)]-[o.s.b.c.e.t.TomcatEmbeddedServletContainer]-[main]
+|2018-03-19 18:06:45.166||INFO -[Started StartApp in 5.556 seconds (JVM running for 8.834)]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-19 18:07:40.884||INFO -[Initializing Spring FrameworkServlet 'dispatcherServlet']-[o.a.c.c.C.[Tomcat].[localhost].[/]]-[http-nio-8081-exec-1]
+|2018-03-19 18:07:40.884||INFO -[FrameworkServlet 'dispatcherServlet': initialization started]-[o.s.web.servlet.DispatcherServlet]-[http-nio-8081-exec-1]
+|2018-03-19 18:07:40.900||INFO -[FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms]-[o.s.web.servlet.DispatcherServlet]-[http-nio-8081-exec-1]
+|2018-03-19 18:07:40.983||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-1]
+|2018-03-19 18:07:40.991||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12ac0035] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-1]
+|2018-03-19 18:07:43.080||ERROR-[Unable to create initial connections of pool.]-[o.a.tomcat.jdbc.pool.ConnectionPool]-[http-nio-8081-exec-1]
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1127)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:356)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2502)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2539)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2321)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:832)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:417)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:344)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:735)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:667)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:482)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:131)
+	at com.github.pagehelper.page.PageAutoDialect.getUrl(PageAutoDialect.java:166)
+	at com.github.pagehelper.page.PageAutoDialect.getDialect(PageAutoDialect.java:192)
+	at com.github.pagehelper.page.PageAutoDialect.initDelegateDialect(PageAutoDialect.java:88)
+	at com.github.pagehelper.PageHelper.skip(PageHelper.java:65)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:92)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy71.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy57.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:137)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:75)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy59.findAll(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy61.findAll(Unknown Source)
+	at com.ecjtu.fbn.service.impl.ArticleServiceImpl.findAll(ArticleServiceImpl.java:41)
+	at com.ecjtu.fbn.controller.BlogController.home(BlogController.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:244)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:258)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:306)
+	... 108 common frames omitted
+|2018-03-19 18:07:43.091||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12ac0035]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-1]
+|2018-03-19 18:07:43.100||ERROR-[Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.github.pagehelper.PageException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### Cause: com.github.pagehelper.PageException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.] with root cause]-[o.a.c.c.C.[.[.[.[dispatcherServlet]]-[http-nio-8081-exec-1]
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:244)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:258)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:306)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2502)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2539)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2321)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:832)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:417)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:344)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:735)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:667)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:482)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:131)
+	at com.github.pagehelper.page.PageAutoDialect.getUrl(PageAutoDialect.java:166)
+	at com.github.pagehelper.page.PageAutoDialect.getDialect(PageAutoDialect.java:192)
+	at com.github.pagehelper.page.PageAutoDialect.initDelegateDialect(PageAutoDialect.java:88)
+	at com.github.pagehelper.PageHelper.skip(PageHelper.java:65)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:92)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy71.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy57.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:137)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:75)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy59.findAll(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy61.findAll(Unknown Source)
+	at com.ecjtu.fbn.service.impl.ArticleServiceImpl.findAll(ArticleServiceImpl.java:41)
+	at com.ecjtu.fbn.controller.BlogController.home(BlogController.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+|2018-03-19 18:08:28.185||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-4]
+|2018-03-19 18:08:28.185||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58715323] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-4]
+|2018-03-19 18:08:30.196||ERROR-[Unable to create initial connections of pool.]-[o.a.tomcat.jdbc.pool.ConnectionPool]-[http-nio-8081-exec-4]
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1127)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:356)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2502)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2539)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2321)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:832)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:417)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:344)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:735)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:667)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:482)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:131)
+	at com.github.pagehelper.page.PageAutoDialect.getUrl(PageAutoDialect.java:166)
+	at com.github.pagehelper.page.PageAutoDialect.getDialect(PageAutoDialect.java:192)
+	at com.github.pagehelper.page.PageAutoDialect.initDelegateDialect(PageAutoDialect.java:88)
+	at com.github.pagehelper.PageHelper.skip(PageHelper.java:65)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:92)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy71.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy57.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:137)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:75)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy59.findAll(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy61.findAll(Unknown Source)
+	at com.ecjtu.fbn.service.impl.ArticleServiceImpl.findAll(ArticleServiceImpl.java:41)
+	at com.ecjtu.fbn.controller.BlogController.home(BlogController.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:244)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:258)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:306)
+	... 108 common frames omitted
+|2018-03-19 18:08:30.199||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58715323]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-4]
+|2018-03-19 18:08:30.200||ERROR-[Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.github.pagehelper.PageException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### Cause: com.github.pagehelper.PageException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.] with root cause]-[o.a.c.c.C.[.[.[.[dispatcherServlet]]-[http-nio-8081-exec-4]
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:244)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:258)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:306)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2502)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2539)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2321)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:832)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:417)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:344)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:735)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:667)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:482)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:131)
+	at com.github.pagehelper.page.PageAutoDialect.getUrl(PageAutoDialect.java:166)
+	at com.github.pagehelper.page.PageAutoDialect.getDialect(PageAutoDialect.java:192)
+	at com.github.pagehelper.page.PageAutoDialect.initDelegateDialect(PageAutoDialect.java:88)
+	at com.github.pagehelper.PageHelper.skip(PageHelper.java:65)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:92)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy71.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy57.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:137)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:75)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy59.findAll(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy61.findAll(Unknown Source)
+	at com.ecjtu.fbn.service.impl.ArticleServiceImpl.findAll(ArticleServiceImpl.java:41)
+	at com.ecjtu.fbn.controller.BlogController.home(BlogController.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+|2018-03-19 18:09:15.330||INFO -[Starting StartApp on DESKTOP-4I94FEJ with PID 14812 (E:\workspace\GraduationDesign\doing\idea\fbn\out\production\classes started by Flyer in E:\workspace\GraduationDesign\doing\idea\fbn)]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-19 18:09:15.334||DEBUG-[Running with Spring Boot v1.4.7.RELEASE, Spring v4.3.9.RELEASE]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-19 18:09:15.335||INFO -[No active profile set, falling back to default profiles: default]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-19 18:09:15.408||INFO -[Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@595b007d: startup date [Mon Mar 19 18:09:15 CST 2018]; root of context hierarchy]-[o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext]-[main]
+|2018-03-19 18:09:15.554||DEBUG-[Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property]-[org.jboss.logging]-[background-preinit]
+|2018-03-19 18:09:15.559||INFO -[HV000001: Hibernate Validator 5.2.5.Final]-[o.h.validator.internal.util.Version]-[background-preinit]
+|2018-03-19 18:09:15.593||DEBUG-[Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.]-[o.h.v.i.e.r.DefaultTraversableResolver]-[background-preinit]
+|2018-03-19 18:09:16.450||DEBUG-[Identified candidate component class: file [E:\workspace\GraduationDesign\doing\idea\fbn\out\production\classes\com\ecjtu\fbn\orm\mapper\ArticleMapper.class]]-[o.m.s.mapper.ClassPathMapperScanner]-[main]
+|2018-03-19 18:09:16.450||DEBUG-[Creating MapperFactoryBean with name 'articleMapper' and 'com.ecjtu.fbn.orm.mapper.ArticleMapper' mapperInterface]-[o.m.s.mapper.ClassPathMapperScanner]-[main]
+|2018-03-19 18:09:16.451||DEBUG-[Enabling autowire by type for MapperFactoryBean with name 'articleMapper'.]-[o.m.s.mapper.ClassPathMapperScanner]-[main]
+|2018-03-19 18:09:17.126||DEBUG-[Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.]-[o.h.v.i.e.r.DefaultTraversableResolver]-[main]
+|2018-03-19 18:09:17.129||DEBUG-[Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-19 18:09:17.129||DEBUG-[Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-19 18:09:17.130||DEBUG-[Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-19 18:09:17.132||DEBUG-[Trying to load META-INF/validation.xml for XML based Validator configuration.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-19 18:09:17.134||DEBUG-[Trying to load META-INF/validation.xml via user class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-19 18:09:17.134||DEBUG-[Trying to load META-INF/validation.xml via TCCL]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-19 18:09:17.135||DEBUG-[Trying to load META-INF/validation.xml via Hibernate Validator's class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-19 18:09:17.135||DEBUG-[No META-INF/validation.xml found. Using annotation based configuration only.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-19 18:09:17.524||INFO -[Tomcat initialized with port(s): 8081 (http)]-[o.s.b.c.e.t.TomcatEmbeddedServletContainer]-[main]
+|2018-03-19 18:09:17.533||INFO -[Starting service [Tomcat]]-[o.a.catalina.core.StandardService]-[main]
+|2018-03-19 18:09:17.534||INFO -[Starting Servlet Engine: Apache Tomcat/8.5.15]-[o.a.catalina.core.StandardEngine]-[main]
+|2018-03-19 18:09:17.788||INFO -[At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.]-[org.apache.jasper.servlet.TldScanner]-[localhost-startStop-1]
+|2018-03-19 18:09:17.792||INFO -[Initializing Spring embedded WebApplicationContext]-[o.a.c.c.C.[Tomcat].[localhost].[/]]-[localhost-startStop-1]
+|2018-03-19 18:09:17.792||INFO -[Root WebApplicationContext: initialization completed in 2385 ms]-[o.s.web.context.ContextLoader]-[localhost-startStop-1]
+|2018-03-19 18:09:17.915||INFO -[Mapping servlet: 'dispatcherServlet' to [/]]-[o.s.b.w.s.ServletRegistrationBean]-[localhost-startStop-1]
+|2018-03-19 18:09:17.919||INFO -[Mapping filter: 'characterEncodingFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-19 18:09:17.919||INFO -[Mapping filter: 'hiddenHttpMethodFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-19 18:09:17.920||INFO -[Mapping filter: 'httpPutFormContentFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-19 18:09:17.920||INFO -[Mapping filter: 'requestContextFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-19 18:09:18.211||DEBUG-[Parsed configuration file: 'class path resource [config/mybatis-config.xml]']-[o.m.spring.SqlSessionFactoryBean]-[main]
+|2018-03-19 18:09:18.212||DEBUG-[Property 'mapperLocations' was not specified or no matching resources found]-[o.m.spring.SqlSessionFactoryBean]-[main]
+|2018-03-19 18:09:18.565||DEBUG-[Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.]-[o.h.v.i.e.r.DefaultTraversableResolver]-[main]
+|2018-03-19 18:09:18.566||DEBUG-[Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-19 18:09:18.566||DEBUG-[Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-19 18:09:18.566||DEBUG-[Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-19 18:09:18.567||DEBUG-[Trying to load META-INF/validation.xml for XML based Validator configuration.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-19 18:09:18.567||DEBUG-[Trying to load META-INF/validation.xml via user class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-19 18:09:18.567||DEBUG-[Trying to load META-INF/validation.xml via TCCL]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-19 18:09:18.567||DEBUG-[Trying to load META-INF/validation.xml via Hibernate Validator's class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-19 18:09:18.567||DEBUG-[No META-INF/validation.xml found. Using annotation based configuration only.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-19 18:09:18.584||INFO -[Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@595b007d: startup date [Mon Mar 19 18:09:15 CST 2018]; root of context hierarchy]-[o.s.w.s.m.m.a.RequestMappingHandlerAdapter]-[main]
+|2018-03-19 18:09:18.636||INFO -[Mapped "{[/test]}" onto public java.lang.String com.ecjtu.fbn.StartApp.showArticle(org.springframework.ui.Model)]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-19 18:09:18.639||INFO -[Mapped "{[/fbn/article/test]}" onto public java.lang.String com.ecjtu.fbn.controller.ArticleController.test()]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-19 18:09:18.639||INFO -[Mapped "{[/fbn/article/detail/{uuid}]}" onto public java.lang.String com.ecjtu.fbn.controller.ArticleController.showArticle(java.lang.String,org.springframework.ui.Model)]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-19 18:09:18.639||INFO -[Mapped "{[/fbn/article/list/{typeId}]}" onto public java.lang.String com.ecjtu.fbn.controller.ArticleController.findList(java.lang.String,com.ecjtu.fbn.orm.domain.Article,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest)]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-19 18:09:18.640||INFO -[Mapped "{[/fbn/blog/home]}" onto public java.lang.String com.ecjtu.fbn.controller.BlogController.home(com.ecjtu.fbn.orm.domain.Article,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest)]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-19 18:09:18.643||INFO -[Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-19 18:09:18.643||INFO -[Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-19 18:09:18.686||INFO -[Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]-[o.s.w.s.h.SimpleUrlHandlerMapping]-[main]
+|2018-03-19 18:09:18.686||INFO -[Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]-[o.s.w.s.h.SimpleUrlHandlerMapping]-[main]
+|2018-03-19 18:09:18.721||INFO -[Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]-[o.s.w.s.h.SimpleUrlHandlerMapping]-[main]
+|2018-03-19 18:09:18.924||INFO -[Registering beans for JMX exposure on startup]-[o.s.j.e.a.AnnotationMBeanExporter]-[main]
+|2018-03-19 18:09:18.938||INFO -[Initializing ProtocolHandler ["http-nio-8081"]]-[o.a.coyote.http11.Http11NioProtocol]-[main]
+|2018-03-19 18:09:18.947||INFO -[Starting ProtocolHandler ["http-nio-8081"]]-[o.a.coyote.http11.Http11NioProtocol]-[main]
+|2018-03-19 18:09:18.959||INFO -[Using a shared selector for servlet write/read]-[o.a.tomcat.util.net.NioSelectorPool]-[main]
+|2018-03-19 18:09:18.989||INFO -[Tomcat started on port(s): 8081 (http)]-[o.s.b.c.e.t.TomcatEmbeddedServletContainer]-[main]
+|2018-03-19 18:09:18.993||INFO -[Started StartApp in 4.156 seconds (JVM running for 6.626)]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-19 18:09:24.883||INFO -[Initializing Spring FrameworkServlet 'dispatcherServlet']-[o.a.c.c.C.[Tomcat].[localhost].[/]]-[http-nio-8081-exec-1]
+|2018-03-19 18:09:24.883||INFO -[FrameworkServlet 'dispatcherServlet': initialization started]-[o.s.web.servlet.DispatcherServlet]-[http-nio-8081-exec-1]
+|2018-03-19 18:09:24.902||INFO -[FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms]-[o.s.web.servlet.DispatcherServlet]-[http-nio-8081-exec-1]
+|2018-03-19 18:09:24.942||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-1]
+|2018-03-19 18:09:24.949||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bfd6706] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-1]
+|2018-03-19 18:09:27.015||ERROR-[Unable to create initial connections of pool.]-[o.a.tomcat.jdbc.pool.ConnectionPool]-[http-nio-8081-exec-1]
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1127)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:356)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2502)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2539)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2321)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:832)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:417)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:344)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:735)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:667)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:482)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:131)
+	at com.github.pagehelper.page.PageAutoDialect.getUrl(PageAutoDialect.java:166)
+	at com.github.pagehelper.page.PageAutoDialect.getDialect(PageAutoDialect.java:192)
+	at com.github.pagehelper.page.PageAutoDialect.initDelegateDialect(PageAutoDialect.java:88)
+	at com.github.pagehelper.PageHelper.skip(PageHelper.java:65)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:92)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy71.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy57.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:137)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:75)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy59.findAll(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy61.findAll(Unknown Source)
+	at com.ecjtu.fbn.service.impl.ArticleServiceImpl.findAll(ArticleServiceImpl.java:41)
+	at com.ecjtu.fbn.controller.BlogController.home(BlogController.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:244)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:258)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:306)
+	... 108 common frames omitted
+|2018-03-19 18:09:27.021||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bfd6706]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-1]
+|2018-03-19 18:09:27.030||ERROR-[Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: com.github.pagehelper.PageException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### Cause: com.github.pagehelper.PageException: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.] with root cause]-[o.a.c.c.C.[.[.[.[dispatcherServlet]]-[http-nio-8081-exec-1]
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:244)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:258)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:306)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2502)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2539)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2321)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:832)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:417)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:344)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:735)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:667)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:482)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:131)
+	at com.github.pagehelper.page.PageAutoDialect.getUrl(PageAutoDialect.java:166)
+	at com.github.pagehelper.page.PageAutoDialect.getDialect(PageAutoDialect.java:192)
+	at com.github.pagehelper.page.PageAutoDialect.initDelegateDialect(PageAutoDialect.java:88)
+	at com.github.pagehelper.PageHelper.skip(PageHelper.java:65)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:92)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy71.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy57.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:137)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:75)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy59.findAll(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy61.findAll(Unknown Source)
+	at com.ecjtu.fbn.service.impl.ArticleServiceImpl.findAll(ArticleServiceImpl.java:41)
+	at com.ecjtu.fbn.controller.BlogController.home(BlogController.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+|2018-03-19 18:09:55.340||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-2]
+|2018-03-19 18:09:55.390||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f3b9a3d] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-2]
+|2018-03-19 18:09:55.719||DEBUG-[Cache Hit Ratio [SQL_CACHE]: 0.0]-[SQL_CACHE]-[http-nio-8081-exec-2]
+|2018-03-19 18:09:55.744||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-2]
+|2018-03-19 18:09:55.747||DEBUG-[==>  Preparing: SELECT count(0) FROM BBM.T_BBM_ARTICLE_INFO ]-[c.e.f.o.m.A.findAll_COUNT]-[http-nio-8081-exec-2]
+|2018-03-19 18:09:55.767||DEBUG-[==> Parameters: ]-[c.e.f.o.m.A.findAll_COUNT]-[http-nio-8081-exec-2]
+|2018-03-19 18:09:55.785||DEBUG-[<==      Total: 1]-[c.e.f.o.m.A.findAll_COUNT]-[http-nio-8081-exec-2]
+|2018-03-19 18:09:55.787||DEBUG-[==>  Preparing: SELECT UUID,TITLE,SUBTITLE,AUTHOR,TYPE,TAG,ARTICLE_IMAGE,SUMMARY,CONTENT,CLICK_NUMBER,COMMENT_NUMBER,CREATE_TIME,UPDATE_TIME,OPERATOR FROM BBM.T_BBM_ARTICLE_INFO LIMIT ? ]-[c.e.f.o.mapper.ArticleMapper.findAll]-[http-nio-8081-exec-2]
+|2018-03-19 18:09:55.788||DEBUG-[==> Parameters: 5(Integer)]-[c.e.f.o.mapper.ArticleMapper.findAll]-[http-nio-8081-exec-2]
+|2018-03-19 18:09:55.797||DEBUG-[<==      Total: 5]-[c.e.f.o.mapper.ArticleMapper.findAll]-[http-nio-8081-exec-2]
+|2018-03-19 18:09:55.798||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f3b9a3d]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-2]
+|2018-03-19 18:09:55.799||INFO -[查询到[5]条记录]-[c.e.fbn.controller.BlogController]-[http-nio-8081-exec-2]
+|2018-03-19 18:09:55.800||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-2]
+|2018-03-19 18:09:55.801||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@129c003a] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-2]
+|2018-03-19 18:09:55.801||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-2]
+|2018-03-19 18:09:55.801||DEBUG-[==>  Preparing: SELECT T.UUID,T.TITLE,T.CLICK_NUMBER FROM BBM.T_BBM_ARTICLE_INFO T ORDER BY T.CLICK_NUMBER DESC LIMIT 10 ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-2]
+|2018-03-19 18:09:55.801||DEBUG-[==> Parameters: ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-2]
+|2018-03-19 18:09:55.804||DEBUG-[<==      Total: 10]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-2]
+|2018-03-19 18:09:55.804||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@129c003a]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-2]
+|2018-03-19 18:10:48.712||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-10]
+|2018-03-19 18:10:48.712||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37d4f6e0] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-10]
+|2018-03-19 18:10:48.712||DEBUG-[Cache Hit Ratio [SQL_CACHE]: 0.5]-[SQL_CACHE]-[http-nio-8081-exec-10]
+|2018-03-19 18:10:48.715||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-10]
+|2018-03-19 18:10:48.715||DEBUG-[==>  Preparing: SELECT count(0) FROM BBM.T_BBM_ARTICLE_INFO ]-[c.e.f.o.m.A.findAll_COUNT]-[http-nio-8081-exec-10]
+|2018-03-19 18:10:48.715||DEBUG-[==> Parameters: ]-[c.e.f.o.m.A.findAll_COUNT]-[http-nio-8081-exec-10]
+|2018-03-19 18:10:48.716||DEBUG-[<==      Total: 1]-[c.e.f.o.m.A.findAll_COUNT]-[http-nio-8081-exec-10]
+|2018-03-19 18:10:48.717||DEBUG-[==>  Preparing: SELECT UUID,TITLE,SUBTITLE,AUTHOR,TYPE,TAG,ARTICLE_IMAGE,SUMMARY,CONTENT,CLICK_NUMBER,COMMENT_NUMBER,CREATE_TIME,UPDATE_TIME,OPERATOR FROM BBM.T_BBM_ARTICLE_INFO LIMIT ? ]-[c.e.f.o.mapper.ArticleMapper.findAll]-[http-nio-8081-exec-10]
+|2018-03-19 18:10:48.717||DEBUG-[==> Parameters: 5(Integer)]-[c.e.f.o.mapper.ArticleMapper.findAll]-[http-nio-8081-exec-10]
+|2018-03-19 18:10:48.721||DEBUG-[<==      Total: 5]-[c.e.f.o.mapper.ArticleMapper.findAll]-[http-nio-8081-exec-10]
+|2018-03-19 18:10:48.722||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37d4f6e0]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-10]
+|2018-03-19 18:10:48.722||INFO -[查询到[5]条记录]-[c.e.fbn.controller.BlogController]-[http-nio-8081-exec-10]
+|2018-03-19 18:10:48.722||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-10]
+|2018-03-19 18:10:48.722||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3099cd8b] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-10]
+|2018-03-19 18:10:48.723||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-10]
+|2018-03-19 18:10:48.723||DEBUG-[==>  Preparing: SELECT T.UUID,T.TITLE,T.CLICK_NUMBER FROM BBM.T_BBM_ARTICLE_INFO T ORDER BY T.CLICK_NUMBER DESC LIMIT 10 ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-10]
+|2018-03-19 18:10:48.723||DEBUG-[==> Parameters: ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-10]
+|2018-03-19 18:10:48.725||DEBUG-[<==      Total: 10]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-10]
+|2018-03-19 18:10:48.726||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3099cd8b]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-10]
+|2018-03-19 18:11:01.573||INFO -[获取到的typId：[3]]-[c.e.fbn.controller.ArticleController]-[http-nio-8081-exec-9]
+|2018-03-19 18:11:01.575||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-9]
+|2018-03-19 18:11:01.575||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c008de5] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-9]
+|2018-03-19 18:11:01.575||DEBUG-[Cache Hit Ratio [SQL_CACHE]: 0.3333333333333333]-[SQL_CACHE]-[http-nio-8081-exec-9]
+|2018-03-19 18:11:01.579||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-9]
+|2018-03-19 18:11:01.580||DEBUG-[==>  Preparing: SELECT count(0) FROM BBM.T_BBM_ARTICLE_INFO WHERE TYPE = ? ]-[c.e.f.o.m.A.findAllByType_COUNT]-[http-nio-8081-exec-9]
+|2018-03-19 18:11:01.580||DEBUG-[==> Parameters: 3(String)]-[c.e.f.o.m.A.findAllByType_COUNT]-[http-nio-8081-exec-9]
+|2018-03-19 18:11:01.581||DEBUG-[<==      Total: 1]-[c.e.f.o.m.A.findAllByType_COUNT]-[http-nio-8081-exec-9]
+|2018-03-19 18:11:01.583||DEBUG-[==>  Preparing: SELECT UUID,TITLE,SUBTITLE,AUTHOR,TYPE,TAG,ARTICLE_IMAGE,SUMMARY,CONTENT,CLICK_NUMBER,COMMENT_NUMBER,CREATE_TIME,UPDATE_TIME,OPERATOR FROM BBM.T_BBM_ARTICLE_INFO WHERE TYPE = ? LIMIT ? ]-[c.e.f.o.m.A.findAllByType]-[http-nio-8081-exec-9]
+|2018-03-19 18:11:01.584||DEBUG-[==> Parameters: 3(String), 5(Integer)]-[c.e.f.o.m.A.findAllByType]-[http-nio-8081-exec-9]
+|2018-03-19 18:11:01.586||DEBUG-[<==      Total: 3]-[c.e.f.o.m.A.findAllByType]-[http-nio-8081-exec-9]
+|2018-03-19 18:11:01.587||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c008de5]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-9]
+|2018-03-19 18:11:01.588||INFO -[查询到[3]条记录]-[c.e.fbn.controller.ArticleController]-[http-nio-8081-exec-9]
+|2018-03-19 18:11:01.588||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-9]
+|2018-03-19 18:11:01.588||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@611f8860] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-9]
+|2018-03-19 18:11:01.588||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-9]
+|2018-03-19 18:11:01.588||DEBUG-[==>  Preparing: SELECT T.UUID,T.TITLE,T.CLICK_NUMBER FROM BBM.T_BBM_ARTICLE_INFO T ORDER BY T.CLICK_NUMBER DESC LIMIT 10 ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-9]
+|2018-03-19 18:11:01.589||DEBUG-[==> Parameters: ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-9]
+|2018-03-19 18:11:01.591||DEBUG-[<==      Total: 10]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-9]
+|2018-03-19 18:11:01.592||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@611f8860]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-9]
+|2018-03-19 18:11:01.592||INFO -[排行榜==>查询到[10]条记录]-[c.e.fbn.controller.ArticleController]-[http-nio-8081-exec-9]
+|2018-03-19 18:11:19.154||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-10]
+|2018-03-19 18:11:19.155||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@169e2cad] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-10]
+|2018-03-19 18:11:19.156||DEBUG-[Cache Hit Ratio [SQL_CACHE]: 0.5]-[SQL_CACHE]-[http-nio-8081-exec-10]
+|2018-03-19 18:11:19.159||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-10]
+|2018-03-19 18:11:19.159||DEBUG-[==>  Preparing: SELECT count(0) FROM BBM.T_BBM_ARTICLE_INFO ]-[c.e.f.o.m.A.findAll_COUNT]-[http-nio-8081-exec-10]
+|2018-03-19 18:11:19.160||DEBUG-[==> Parameters: ]-[c.e.f.o.m.A.findAll_COUNT]-[http-nio-8081-exec-10]
+|2018-03-19 18:11:19.161||DEBUG-[<==      Total: 1]-[c.e.f.o.m.A.findAll_COUNT]-[http-nio-8081-exec-10]
+|2018-03-19 18:11:19.162||DEBUG-[==>  Preparing: SELECT UUID,TITLE,SUBTITLE,AUTHOR,TYPE,TAG,ARTICLE_IMAGE,SUMMARY,CONTENT,CLICK_NUMBER,COMMENT_NUMBER,CREATE_TIME,UPDATE_TIME,OPERATOR FROM BBM.T_BBM_ARTICLE_INFO LIMIT ? ]-[c.e.f.o.mapper.ArticleMapper.findAll]-[http-nio-8081-exec-10]
+|2018-03-19 18:11:19.162||DEBUG-[==> Parameters: 5(Integer)]-[c.e.f.o.mapper.ArticleMapper.findAll]-[http-nio-8081-exec-10]
+|2018-03-19 18:11:19.165||DEBUG-[<==      Total: 5]-[c.e.f.o.mapper.ArticleMapper.findAll]-[http-nio-8081-exec-10]
+|2018-03-19 18:11:19.166||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@169e2cad]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-10]
+|2018-03-19 18:11:19.166||INFO -[查询到[5]条记录]-[c.e.fbn.controller.BlogController]-[http-nio-8081-exec-10]
+|2018-03-19 18:11:19.166||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-10]
+|2018-03-19 18:11:19.166||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26467670] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-10]
+|2018-03-19 18:11:19.166||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-10]
+|2018-03-19 18:11:19.166||DEBUG-[==>  Preparing: SELECT T.UUID,T.TITLE,T.CLICK_NUMBER FROM BBM.T_BBM_ARTICLE_INFO T ORDER BY T.CLICK_NUMBER DESC LIMIT 10 ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-10]
+|2018-03-19 18:11:19.167||DEBUG-[==> Parameters: ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-10]
+|2018-03-19 18:11:19.169||DEBUG-[<==      Total: 10]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-10]
+|2018-03-19 18:11:19.169||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26467670]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-10]
+|2018-03-19 18:14:24.043||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-6]
+|2018-03-19 18:14:24.044||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e5d6a26] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-6]
+|2018-03-19 18:14:24.044||DEBUG-[Cache Hit Ratio [SQL_CACHE]: 0.6]-[SQL_CACHE]-[http-nio-8081-exec-6]
+|2018-03-19 18:14:24.047||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-6]
+|2018-03-19 18:14:24.047||DEBUG-[==>  Preparing: SELECT count(0) FROM BBM.T_BBM_ARTICLE_INFO ]-[c.e.f.o.m.A.findAll_COUNT]-[http-nio-8081-exec-6]
+|2018-03-19 18:14:24.047||DEBUG-[==> Parameters: ]-[c.e.f.o.m.A.findAll_COUNT]-[http-nio-8081-exec-6]
+|2018-03-19 18:14:24.049||DEBUG-[<==      Total: 1]-[c.e.f.o.m.A.findAll_COUNT]-[http-nio-8081-exec-6]
+|2018-03-19 18:14:24.050||DEBUG-[==>  Preparing: SELECT UUID,TITLE,SUBTITLE,AUTHOR,TYPE,TAG,ARTICLE_IMAGE,SUMMARY,CONTENT,CLICK_NUMBER,COMMENT_NUMBER,CREATE_TIME,UPDATE_TIME,OPERATOR FROM BBM.T_BBM_ARTICLE_INFO LIMIT ? ]-[c.e.f.o.mapper.ArticleMapper.findAll]-[http-nio-8081-exec-6]
+|2018-03-19 18:14:24.050||DEBUG-[==> Parameters: 5(Integer)]-[c.e.f.o.mapper.ArticleMapper.findAll]-[http-nio-8081-exec-6]
+|2018-03-19 18:14:24.052||DEBUG-[<==      Total: 5]-[c.e.f.o.mapper.ArticleMapper.findAll]-[http-nio-8081-exec-6]
+|2018-03-19 18:14:24.052||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e5d6a26]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-6]
+|2018-03-19 18:14:24.052||INFO -[查询到[5]条记录]-[c.e.fbn.controller.BlogController]-[http-nio-8081-exec-6]
+|2018-03-19 18:14:24.052||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-6]
+|2018-03-19 18:14:24.052||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@21192535] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-6]
+|2018-03-19 18:14:24.052||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-6]
+|2018-03-19 18:14:24.053||DEBUG-[==>  Preparing: SELECT T.UUID,T.TITLE,T.CLICK_NUMBER FROM BBM.T_BBM_ARTICLE_INFO T ORDER BY T.CLICK_NUMBER DESC LIMIT 10 ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-6]
+|2018-03-19 18:14:24.053||DEBUG-[==> Parameters: ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-6]
+|2018-03-19 18:14:24.054||DEBUG-[<==      Total: 10]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-6]
+|2018-03-19 18:14:24.055||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@21192535]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-6]
+|2018-03-19 18:14:29.156||INFO -[获取到的typId：[0]]-[c.e.fbn.controller.ArticleController]-[http-nio-8081-exec-2]
+|2018-03-19 18:14:29.157||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-2]
+|2018-03-19 18:14:29.157||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f738e44] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-2]
+|2018-03-19 18:14:29.157||DEBUG-[Cache Hit Ratio [SQL_CACHE]: 0.6666666666666666]-[SQL_CACHE]-[http-nio-8081-exec-2]
+|2018-03-19 18:14:29.161||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-2]
+|2018-03-19 18:14:29.162||DEBUG-[==>  Preparing: SELECT count(0) FROM BBM.T_BBM_ARTICLE_INFO WHERE TYPE = ? ]-[c.e.f.o.m.A.findAllByType_COUNT]-[http-nio-8081-exec-2]
+|2018-03-19 18:14:29.163||DEBUG-[==> Parameters: 0(String)]-[c.e.f.o.m.A.findAllByType_COUNT]-[http-nio-8081-exec-2]
+|2018-03-19 18:14:29.166||DEBUG-[<==      Total: 1]-[c.e.f.o.m.A.findAllByType_COUNT]-[http-nio-8081-exec-2]
+|2018-03-19 18:14:29.167||DEBUG-[==>  Preparing: SELECT UUID,TITLE,SUBTITLE,AUTHOR,TYPE,TAG,ARTICLE_IMAGE,SUMMARY,CONTENT,CLICK_NUMBER,COMMENT_NUMBER,CREATE_TIME,UPDATE_TIME,OPERATOR FROM BBM.T_BBM_ARTICLE_INFO WHERE TYPE = ? LIMIT ? ]-[c.e.f.o.m.A.findAllByType]-[http-nio-8081-exec-2]
+|2018-03-19 18:14:29.167||DEBUG-[==> Parameters: 0(String), 5(Integer)]-[c.e.f.o.m.A.findAllByType]-[http-nio-8081-exec-2]
+|2018-03-19 18:14:29.170||DEBUG-[<==      Total: 5]-[c.e.f.o.m.A.findAllByType]-[http-nio-8081-exec-2]
+|2018-03-19 18:14:29.170||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f738e44]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-2]
+|2018-03-19 18:14:29.170||INFO -[查询到[5]条记录]-[c.e.fbn.controller.ArticleController]-[http-nio-8081-exec-2]
+|2018-03-19 18:14:29.171||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-2]
+|2018-03-19 18:14:29.171||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2078c7ef] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-2]
+|2018-03-19 18:14:29.171||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-2]
+|2018-03-19 18:14:29.171||DEBUG-[==>  Preparing: SELECT T.UUID,T.TITLE,T.CLICK_NUMBER FROM BBM.T_BBM_ARTICLE_INFO T ORDER BY T.CLICK_NUMBER DESC LIMIT 10 ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-2]
+|2018-03-19 18:14:29.171||DEBUG-[==> Parameters: ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-2]
+|2018-03-19 18:14:29.174||DEBUG-[<==      Total: 10]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-2]
+|2018-03-19 18:14:29.176||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2078c7ef]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-2]
+|2018-03-19 18:14:29.176||INFO -[排行榜==>查询到[10]条记录]-[c.e.fbn.controller.ArticleController]-[http-nio-8081-exec-2]
+|2018-03-19 18:14:35.344||INFO -[获取到的typId：[3]]-[c.e.fbn.controller.ArticleController]-[http-nio-8081-exec-9]
+|2018-03-19 18:14:35.344||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-9]
+|2018-03-19 18:14:35.345||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71a6c243] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-9]
+|2018-03-19 18:14:35.345||DEBUG-[Cache Hit Ratio [SQL_CACHE]: 0.7142857142857143]-[SQL_CACHE]-[http-nio-8081-exec-9]
+|2018-03-19 18:14:35.346||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-9]
+|2018-03-19 18:14:35.346||DEBUG-[==>  Preparing: SELECT count(0) FROM BBM.T_BBM_ARTICLE_INFO WHERE TYPE = ? ]-[c.e.f.o.m.A.findAllByType_COUNT]-[http-nio-8081-exec-9]
+|2018-03-19 18:14:35.346||DEBUG-[==> Parameters: 3(String)]-[c.e.f.o.m.A.findAllByType_COUNT]-[http-nio-8081-exec-9]
+|2018-03-19 18:14:35.347||DEBUG-[<==      Total: 1]-[c.e.f.o.m.A.findAllByType_COUNT]-[http-nio-8081-exec-9]
+|2018-03-19 18:14:35.348||DEBUG-[==>  Preparing: SELECT UUID,TITLE,SUBTITLE,AUTHOR,TYPE,TAG,ARTICLE_IMAGE,SUMMARY,CONTENT,CLICK_NUMBER,COMMENT_NUMBER,CREATE_TIME,UPDATE_TIME,OPERATOR FROM BBM.T_BBM_ARTICLE_INFO WHERE TYPE = ? LIMIT ? ]-[c.e.f.o.m.A.findAllByType]-[http-nio-8081-exec-9]
+|2018-03-19 18:14:35.348||DEBUG-[==> Parameters: 3(String), 5(Integer)]-[c.e.f.o.m.A.findAllByType]-[http-nio-8081-exec-9]
+|2018-03-19 18:14:35.350||DEBUG-[<==      Total: 3]-[c.e.f.o.m.A.findAllByType]-[http-nio-8081-exec-9]
+|2018-03-19 18:14:35.350||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71a6c243]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-9]
+|2018-03-19 18:14:35.350||INFO -[查询到[3]条记录]-[c.e.fbn.controller.ArticleController]-[http-nio-8081-exec-9]
+|2018-03-19 18:14:35.350||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-9]
+|2018-03-19 18:14:35.350||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76530637] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-9]
+|2018-03-19 18:14:35.351||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-9]
+|2018-03-19 18:14:35.351||DEBUG-[==>  Preparing: SELECT T.UUID,T.TITLE,T.CLICK_NUMBER FROM BBM.T_BBM_ARTICLE_INFO T ORDER BY T.CLICK_NUMBER DESC LIMIT 10 ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-9]
+|2018-03-19 18:14:35.351||DEBUG-[==> Parameters: ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-9]
+|2018-03-19 18:14:35.352||DEBUG-[<==      Total: 10]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-9]
+|2018-03-19 18:14:35.352||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76530637]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-9]
+|2018-03-19 18:14:35.352||INFO -[排行榜==>查询到[10]条记录]-[c.e.fbn.controller.ArticleController]-[http-nio-8081-exec-9]
+|2018-03-19 18:15:44.840||INFO -[获取到的typId：[3]]-[c.e.fbn.controller.ArticleController]-[http-nio-8081-exec-4]
+|2018-03-19 18:15:44.841||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-4]
+|2018-03-19 18:15:44.841||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d53d6bb] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-4]
+|2018-03-19 18:15:44.842||DEBUG-[Cache Hit Ratio [SQL_CACHE]: 0.75]-[SQL_CACHE]-[http-nio-8081-exec-4]
+|2018-03-19 18:15:44.847||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-4]
+|2018-03-19 18:15:44.847||DEBUG-[==>  Preparing: SELECT count(0) FROM BBM.T_BBM_ARTICLE_INFO WHERE TYPE = ? ]-[c.e.f.o.m.A.findAllByType_COUNT]-[http-nio-8081-exec-4]
+|2018-03-19 18:15:44.847||DEBUG-[==> Parameters: 3(String)]-[c.e.f.o.m.A.findAllByType_COUNT]-[http-nio-8081-exec-4]
+|2018-03-19 18:15:44.848||DEBUG-[<==      Total: 1]-[c.e.f.o.m.A.findAllByType_COUNT]-[http-nio-8081-exec-4]
+|2018-03-19 18:15:44.849||DEBUG-[==>  Preparing: SELECT UUID,TITLE,SUBTITLE,AUTHOR,TYPE,TAG,ARTICLE_IMAGE,SUMMARY,CONTENT,CLICK_NUMBER,COMMENT_NUMBER,CREATE_TIME,UPDATE_TIME,OPERATOR FROM BBM.T_BBM_ARTICLE_INFO WHERE TYPE = ? LIMIT ? ]-[c.e.f.o.m.A.findAllByType]-[http-nio-8081-exec-4]
+|2018-03-19 18:15:44.850||DEBUG-[==> Parameters: 3(String), 5(Integer)]-[c.e.f.o.m.A.findAllByType]-[http-nio-8081-exec-4]
+|2018-03-19 18:15:44.852||DEBUG-[<==      Total: 3]-[c.e.f.o.m.A.findAllByType]-[http-nio-8081-exec-4]
+|2018-03-19 18:15:44.852||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d53d6bb]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-4]
+|2018-03-19 18:15:44.853||INFO -[查询到[3]条记录]-[c.e.fbn.controller.ArticleController]-[http-nio-8081-exec-4]
+|2018-03-19 18:15:44.853||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-4]
+|2018-03-19 18:15:44.853||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3aba6cb2] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-4]
+|2018-03-19 18:15:44.853||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-4]
+|2018-03-19 18:15:44.853||DEBUG-[==>  Preparing: SELECT T.UUID,T.TITLE,T.CLICK_NUMBER FROM BBM.T_BBM_ARTICLE_INFO T ORDER BY T.CLICK_NUMBER DESC LIMIT 10 ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-4]
+|2018-03-19 18:15:44.854||DEBUG-[==> Parameters: ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-4]
+|2018-03-19 18:15:44.855||DEBUG-[<==      Total: 10]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-4]
+|2018-03-19 18:15:44.857||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3aba6cb2]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-4]
+|2018-03-19 18:15:44.857||INFO -[排行榜==>查询到[10]条记录]-[c.e.fbn.controller.ArticleController]-[http-nio-8081-exec-4]
+|2018-03-19 18:15:47.501||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-9]
+|2018-03-19 18:15:47.501||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31ea9cfd] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-9]
+|2018-03-19 18:15:47.501||DEBUG-[Cache Hit Ratio [SQL_CACHE]: 0.7777777777777778]-[SQL_CACHE]-[http-nio-8081-exec-9]
+|2018-03-19 18:15:47.502||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-9]
+|2018-03-19 18:15:47.502||DEBUG-[==>  Preparing: SELECT count(0) FROM BBM.T_BBM_ARTICLE_INFO ]-[c.e.f.o.m.A.findAll_COUNT]-[http-nio-8081-exec-9]
+|2018-03-19 18:15:47.502||DEBUG-[==> Parameters: ]-[c.e.f.o.m.A.findAll_COUNT]-[http-nio-8081-exec-9]
+|2018-03-19 18:15:47.504||DEBUG-[<==      Total: 1]-[c.e.f.o.m.A.findAll_COUNT]-[http-nio-8081-exec-9]
+|2018-03-19 18:15:47.504||DEBUG-[==>  Preparing: SELECT UUID,TITLE,SUBTITLE,AUTHOR,TYPE,TAG,ARTICLE_IMAGE,SUMMARY,CONTENT,CLICK_NUMBER,COMMENT_NUMBER,CREATE_TIME,UPDATE_TIME,OPERATOR FROM BBM.T_BBM_ARTICLE_INFO LIMIT ? ]-[c.e.f.o.mapper.ArticleMapper.findAll]-[http-nio-8081-exec-9]
+|2018-03-19 18:15:47.505||DEBUG-[==> Parameters: 5(Integer)]-[c.e.f.o.mapper.ArticleMapper.findAll]-[http-nio-8081-exec-9]
+|2018-03-19 18:15:47.507||DEBUG-[<==      Total: 5]-[c.e.f.o.mapper.ArticleMapper.findAll]-[http-nio-8081-exec-9]
+|2018-03-19 18:15:47.507||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31ea9cfd]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-9]
+|2018-03-19 18:15:47.507||INFO -[查询到[5]条记录]-[c.e.fbn.controller.BlogController]-[http-nio-8081-exec-9]
+|2018-03-19 18:15:47.508||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-9]
+|2018-03-19 18:15:47.508||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5cdc5322] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-9]
+|2018-03-19 18:15:47.508||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-9]
+|2018-03-19 18:15:47.508||DEBUG-[==>  Preparing: SELECT T.UUID,T.TITLE,T.CLICK_NUMBER FROM BBM.T_BBM_ARTICLE_INFO T ORDER BY T.CLICK_NUMBER DESC LIMIT 10 ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-9]
+|2018-03-19 18:15:47.508||DEBUG-[==> Parameters: ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-9]
+|2018-03-19 18:15:47.509||DEBUG-[<==      Total: 10]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-9]
+|2018-03-19 18:15:47.510||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5cdc5322]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-9]
+|2018-03-19 18:15:52.307||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-10]
+|2018-03-19 18:15:52.307||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@722d581c] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-10]
+|2018-03-19 18:15:52.307||DEBUG-[Cache Hit Ratio [SQL_CACHE]: 0.8]-[SQL_CACHE]-[http-nio-8081-exec-10]
+|2018-03-19 18:15:52.309||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-10]
+|2018-03-19 18:15:52.309||DEBUG-[==>  Preparing: SELECT count(0) FROM BBM.T_BBM_ARTICLE_INFO ]-[c.e.f.o.m.A.findAll_COUNT]-[http-nio-8081-exec-10]
+|2018-03-19 18:15:52.309||DEBUG-[==> Parameters: ]-[c.e.f.o.m.A.findAll_COUNT]-[http-nio-8081-exec-10]
+|2018-03-19 18:15:52.310||DEBUG-[<==      Total: 1]-[c.e.f.o.m.A.findAll_COUNT]-[http-nio-8081-exec-10]
+|2018-03-19 18:15:52.311||DEBUG-[==>  Preparing: SELECT UUID,TITLE,SUBTITLE,AUTHOR,TYPE,TAG,ARTICLE_IMAGE,SUMMARY,CONTENT,CLICK_NUMBER,COMMENT_NUMBER,CREATE_TIME,UPDATE_TIME,OPERATOR FROM BBM.T_BBM_ARTICLE_INFO LIMIT ? ]-[c.e.f.o.mapper.ArticleMapper.findAll]-[http-nio-8081-exec-10]
+|2018-03-19 18:15:52.312||DEBUG-[==> Parameters: 5(Integer)]-[c.e.f.o.mapper.ArticleMapper.findAll]-[http-nio-8081-exec-10]
+|2018-03-19 18:15:52.314||DEBUG-[<==      Total: 5]-[c.e.f.o.mapper.ArticleMapper.findAll]-[http-nio-8081-exec-10]
+|2018-03-19 18:15:52.314||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@722d581c]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-10]
+|2018-03-19 18:15:52.314||INFO -[查询到[5]条记录]-[c.e.fbn.controller.BlogController]-[http-nio-8081-exec-10]
+|2018-03-19 18:15:52.314||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-10]
+|2018-03-19 18:15:52.314||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bc5c0b9] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-10]
+|2018-03-19 18:15:52.314||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-10]
+|2018-03-19 18:15:52.315||DEBUG-[==>  Preparing: SELECT T.UUID,T.TITLE,T.CLICK_NUMBER FROM BBM.T_BBM_ARTICLE_INFO T ORDER BY T.CLICK_NUMBER DESC LIMIT 10 ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-10]
+|2018-03-19 18:15:52.315||DEBUG-[==> Parameters: ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-10]
+|2018-03-19 18:15:52.316||DEBUG-[<==      Total: 10]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-10]
+|2018-03-19 18:15:52.317||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bc5c0b9]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-10]
+|2018-03-19 18:16:10.834||INFO -[A cookie header was received [1516156838,1516239701,1517197204; Hm_lvt_3ec071cbe1c92def07a1010140ee841b=1516156031,1516156838,1516239701,1517197204] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.]-[o.a.tomcat.util.http.parser.Cookie]-[http-nio-8081-exec-8]
+|2018-03-19 18:16:10.835||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-8]
+|2018-03-19 18:16:10.835||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@237e0ff1] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-8]
+|2018-03-19 18:16:10.835||DEBUG-[Cache Hit Ratio [SQL_CACHE]: 0.8181818181818182]-[SQL_CACHE]-[http-nio-8081-exec-8]
+|2018-03-19 18:16:10.837||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-8]
+|2018-03-19 18:16:10.837||DEBUG-[==>  Preparing: SELECT count(0) FROM BBM.T_BBM_ARTICLE_INFO ]-[c.e.f.o.m.A.findAll_COUNT]-[http-nio-8081-exec-8]
+|2018-03-19 18:16:10.838||DEBUG-[==> Parameters: ]-[c.e.f.o.m.A.findAll_COUNT]-[http-nio-8081-exec-8]
+|2018-03-19 18:16:10.839||DEBUG-[<==      Total: 1]-[c.e.f.o.m.A.findAll_COUNT]-[http-nio-8081-exec-8]
+|2018-03-19 18:16:10.840||DEBUG-[==>  Preparing: SELECT UUID,TITLE,SUBTITLE,AUTHOR,TYPE,TAG,ARTICLE_IMAGE,SUMMARY,CONTENT,CLICK_NUMBER,COMMENT_NUMBER,CREATE_TIME,UPDATE_TIME,OPERATOR FROM BBM.T_BBM_ARTICLE_INFO LIMIT ? ]-[c.e.f.o.mapper.ArticleMapper.findAll]-[http-nio-8081-exec-8]
+|2018-03-19 18:16:10.840||DEBUG-[==> Parameters: 5(Integer)]-[c.e.f.o.mapper.ArticleMapper.findAll]-[http-nio-8081-exec-8]
+|2018-03-19 18:16:10.843||DEBUG-[<==      Total: 5]-[c.e.f.o.mapper.ArticleMapper.findAll]-[http-nio-8081-exec-8]
+|2018-03-19 18:16:10.843||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@237e0ff1]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-8]
+|2018-03-19 18:16:10.843||INFO -[查询到[5]条记录]-[c.e.fbn.controller.BlogController]-[http-nio-8081-exec-8]
+|2018-03-19 18:16:10.843||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-8]
+|2018-03-19 18:16:10.843||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f8d28d0] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-8]
+|2018-03-19 18:16:10.843||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-8]
+|2018-03-19 18:16:10.844||DEBUG-[==>  Preparing: SELECT T.UUID,T.TITLE,T.CLICK_NUMBER FROM BBM.T_BBM_ARTICLE_INFO T ORDER BY T.CLICK_NUMBER DESC LIMIT 10 ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-8]
+|2018-03-19 18:16:10.844||DEBUG-[==> Parameters: ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-8]
+|2018-03-19 18:16:10.846||DEBUG-[<==      Total: 10]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-8]
+|2018-03-19 18:16:10.846||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f8d28d0]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-8]
+|2018-03-19 18:16:22.218||INFO -[获取到的typId：[0]]-[c.e.fbn.controller.ArticleController]-[http-nio-8081-exec-6]
+|2018-03-19 18:16:22.218||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-6]
+|2018-03-19 18:16:22.218||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25705da8] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-6]
+|2018-03-19 18:16:22.219||DEBUG-[Cache Hit Ratio [SQL_CACHE]: 0.8333333333333334]-[SQL_CACHE]-[http-nio-8081-exec-6]
+|2018-03-19 18:16:22.221||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-6]
+|2018-03-19 18:16:22.221||DEBUG-[==>  Preparing: SELECT count(0) FROM BBM.T_BBM_ARTICLE_INFO WHERE TYPE = ? ]-[c.e.f.o.m.A.findAllByType_COUNT]-[http-nio-8081-exec-6]
+|2018-03-19 18:16:22.221||DEBUG-[==> Parameters: 0(String)]-[c.e.f.o.m.A.findAllByType_COUNT]-[http-nio-8081-exec-6]
+|2018-03-19 18:16:22.223||DEBUG-[<==      Total: 1]-[c.e.f.o.m.A.findAllByType_COUNT]-[http-nio-8081-exec-6]
+|2018-03-19 18:16:22.226||DEBUG-[==>  Preparing: SELECT UUID,TITLE,SUBTITLE,AUTHOR,TYPE,TAG,ARTICLE_IMAGE,SUMMARY,CONTENT,CLICK_NUMBER,COMMENT_NUMBER,CREATE_TIME,UPDATE_TIME,OPERATOR FROM BBM.T_BBM_ARTICLE_INFO WHERE TYPE = ? LIMIT ? ]-[c.e.f.o.m.A.findAllByType]-[http-nio-8081-exec-6]
+|2018-03-19 18:16:22.227||DEBUG-[==> Parameters: 0(String), 5(Integer)]-[c.e.f.o.m.A.findAllByType]-[http-nio-8081-exec-6]
+|2018-03-19 18:16:22.230||DEBUG-[<==      Total: 5]-[c.e.f.o.m.A.findAllByType]-[http-nio-8081-exec-6]
+|2018-03-19 18:16:22.230||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25705da8]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-6]
+|2018-03-19 18:16:22.231||INFO -[查询到[5]条记录]-[c.e.fbn.controller.ArticleController]-[http-nio-8081-exec-6]
+|2018-03-19 18:16:22.231||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-6]
+|2018-03-19 18:16:22.231||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bf45a63] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-6]
+|2018-03-19 18:16:22.231||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-6]
+|2018-03-19 18:16:22.231||DEBUG-[==>  Preparing: SELECT T.UUID,T.TITLE,T.CLICK_NUMBER FROM BBM.T_BBM_ARTICLE_INFO T ORDER BY T.CLICK_NUMBER DESC LIMIT 10 ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-6]
+|2018-03-19 18:16:22.231||DEBUG-[==> Parameters: ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-6]
+|2018-03-19 18:16:22.233||DEBUG-[<==      Total: 10]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-6]
+|2018-03-19 18:16:22.233||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bf45a63]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-6]
+|2018-03-19 18:16:22.233||INFO -[排行榜==>查询到[10]条记录]-[c.e.fbn.controller.ArticleController]-[http-nio-8081-exec-6]
+|2018-03-19 18:16:28.098||INFO -[获取到的typId：[3]]-[c.e.fbn.controller.ArticleController]-[http-nio-8081-exec-9]
+|2018-03-19 18:16:28.099||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-9]
+|2018-03-19 18:16:28.099||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5be90e51] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-9]
+|2018-03-19 18:16:28.099||DEBUG-[Cache Hit Ratio [SQL_CACHE]: 0.8461538461538461]-[SQL_CACHE]-[http-nio-8081-exec-9]
+|2018-03-19 18:16:28.102||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-9]
+|2018-03-19 18:16:28.102||DEBUG-[==>  Preparing: SELECT count(0) FROM BBM.T_BBM_ARTICLE_INFO WHERE TYPE = ? ]-[c.e.f.o.m.A.findAllByType_COUNT]-[http-nio-8081-exec-9]
+|2018-03-19 18:16:28.103||DEBUG-[==> Parameters: 3(String)]-[c.e.f.o.m.A.findAllByType_COUNT]-[http-nio-8081-exec-9]
+|2018-03-19 18:16:28.104||DEBUG-[<==      Total: 1]-[c.e.f.o.m.A.findAllByType_COUNT]-[http-nio-8081-exec-9]
+|2018-03-19 18:16:28.105||DEBUG-[==>  Preparing: SELECT UUID,TITLE,SUBTITLE,AUTHOR,TYPE,TAG,ARTICLE_IMAGE,SUMMARY,CONTENT,CLICK_NUMBER,COMMENT_NUMBER,CREATE_TIME,UPDATE_TIME,OPERATOR FROM BBM.T_BBM_ARTICLE_INFO WHERE TYPE = ? LIMIT ? ]-[c.e.f.o.m.A.findAllByType]-[http-nio-8081-exec-9]
+|2018-03-19 18:16:28.106||DEBUG-[==> Parameters: 3(String), 5(Integer)]-[c.e.f.o.m.A.findAllByType]-[http-nio-8081-exec-9]
+|2018-03-19 18:16:28.108||DEBUG-[<==      Total: 3]-[c.e.f.o.m.A.findAllByType]-[http-nio-8081-exec-9]
+|2018-03-19 18:16:28.108||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5be90e51]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-9]
+|2018-03-19 18:16:28.109||INFO -[查询到[3]条记录]-[c.e.fbn.controller.ArticleController]-[http-nio-8081-exec-9]
+|2018-03-19 18:16:28.109||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-9]
+|2018-03-19 18:16:28.109||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@57568f45] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-9]
+|2018-03-19 18:16:28.109||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-9]
+|2018-03-19 18:16:28.109||DEBUG-[==>  Preparing: SELECT T.UUID,T.TITLE,T.CLICK_NUMBER FROM BBM.T_BBM_ARTICLE_INFO T ORDER BY T.CLICK_NUMBER DESC LIMIT 10 ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-9]
+|2018-03-19 18:16:28.109||DEBUG-[==> Parameters: ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-9]
+|2018-03-19 18:16:28.111||DEBUG-[<==      Total: 10]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-9]
+|2018-03-19 18:16:28.111||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@57568f45]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-9]
+|2018-03-19 18:16:28.111||INFO -[排行榜==>查询到[10]条记录]-[c.e.fbn.controller.ArticleController]-[http-nio-8081-exec-9]
+|2018-03-19 18:16:30.621||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-10]
+|2018-03-19 18:16:30.623||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@710e4f36] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-10]
+|2018-03-19 18:16:30.624||DEBUG-[Cache Hit Ratio [SQL_CACHE]: 0.8571428571428571]-[SQL_CACHE]-[http-nio-8081-exec-10]
+|2018-03-19 18:16:30.625||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-10]
+|2018-03-19 18:16:30.625||DEBUG-[==>  Preparing: SELECT count(0) FROM BBM.T_BBM_ARTICLE_INFO ]-[c.e.f.o.m.A.findAll_COUNT]-[http-nio-8081-exec-10]
+|2018-03-19 18:16:30.626||DEBUG-[==> Parameters: ]-[c.e.f.o.m.A.findAll_COUNT]-[http-nio-8081-exec-10]
+|2018-03-19 18:16:30.627||DEBUG-[<==      Total: 1]-[c.e.f.o.m.A.findAll_COUNT]-[http-nio-8081-exec-10]
+|2018-03-19 18:16:30.628||DEBUG-[==>  Preparing: SELECT UUID,TITLE,SUBTITLE,AUTHOR,TYPE,TAG,ARTICLE_IMAGE,SUMMARY,CONTENT,CLICK_NUMBER,COMMENT_NUMBER,CREATE_TIME,UPDATE_TIME,OPERATOR FROM BBM.T_BBM_ARTICLE_INFO LIMIT ? ]-[c.e.f.o.mapper.ArticleMapper.findAll]-[http-nio-8081-exec-10]
+|2018-03-19 18:16:30.628||DEBUG-[==> Parameters: 5(Integer)]-[c.e.f.o.mapper.ArticleMapper.findAll]-[http-nio-8081-exec-10]
+|2018-03-19 18:16:30.630||DEBUG-[<==      Total: 5]-[c.e.f.o.mapper.ArticleMapper.findAll]-[http-nio-8081-exec-10]
+|2018-03-19 18:16:30.630||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@710e4f36]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-10]
+|2018-03-19 18:16:30.630||INFO -[查询到[5]条记录]-[c.e.fbn.controller.BlogController]-[http-nio-8081-exec-10]
+|2018-03-19 18:16:30.630||DEBUG-[Creating a new SqlSession]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-10]
+|2018-03-19 18:16:30.630||DEBUG-[SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@72621200] was not registered for synchronization because synchronization is not active]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-10]
+|2018-03-19 18:16:30.630||DEBUG-[JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@719b950e]]] will not be managed by Spring]-[o.m.s.t.SpringManagedTransaction]-[http-nio-8081-exec-10]
+|2018-03-19 18:16:30.630||DEBUG-[==>  Preparing: SELECT T.UUID,T.TITLE,T.CLICK_NUMBER FROM BBM.T_BBM_ARTICLE_INFO T ORDER BY T.CLICK_NUMBER DESC LIMIT 10 ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-10]
+|2018-03-19 18:16:30.631||DEBUG-[==> Parameters: ]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-10]
+|2018-03-19 18:16:30.632||DEBUG-[<==      Total: 10]-[c.e.f.o.m.A.maxClickNumber]-[http-nio-8081-exec-10]
+|2018-03-19 18:16:30.632||DEBUG-[Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@72621200]]-[org.mybatis.spring.SqlSessionUtils]-[http-nio-8081-exec-10]

@@ -1,0 +1,554 @@
+|2018-03-06 19:22:46.344||INFO -[Starting StartApp on DESKTOP-4I94FEJ with PID 14176 (E:\workspace\GraduationDesign\doing\idea\fbn\out\production\classes started by Flyer in E:\workspace\GraduationDesign\doing\idea\fbn)]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-06 19:22:46.347||DEBUG-[Running with Spring Boot v1.4.7.RELEASE, Spring v4.3.9.RELEASE]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-06 19:22:46.348||INFO -[No active profile set, falling back to default profiles: default]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-06 19:22:46.413||INFO -[Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5158b42f: startup date [Tue Mar 06 19:22:46 CST 2018]; root of context hierarchy]-[o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext]-[main]
+|2018-03-06 19:22:46.444||DEBUG-[Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property]-[org.jboss.logging]-[background-preinit]
+|2018-03-06 19:22:46.447||INFO -[HV000001: Hibernate Validator 5.2.5.Final]-[o.h.validator.internal.util.Version]-[background-preinit]
+|2018-03-06 19:22:46.488||DEBUG-[Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.]-[o.h.v.i.e.r.DefaultTraversableResolver]-[background-preinit]
+|2018-03-06 19:22:47.275||WARN -[No MyBatis mapper was found in '[com.ecjtu.fbn.orm.mapper]' package. Please check your configuration.]-[o.m.s.mapper.ClassPathMapperScanner]-[main]
+|2018-03-06 19:22:47.365||DEBUG-[Searching for mappers annotated with @Mapper]-[o.m.s.b.a.MybatisAutoConfiguration]-[main]
+|2018-03-06 19:22:47.366||DEBUG-[Using auto-configuration base package 'com.ecjtu.fbn']-[o.m.s.b.a.MybatisAutoConfiguration]-[main]
+|2018-03-06 19:22:47.376||WARN -[No MyBatis mapper was found in '[com.ecjtu.fbn]' package. Please check your configuration.]-[o.m.s.mapper.ClassPathMapperScanner]-[main]
+|2018-03-06 19:22:47.882||DEBUG-[Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.]-[o.h.v.i.e.r.DefaultTraversableResolver]-[main]
+|2018-03-06 19:22:47.883||DEBUG-[Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:22:47.884||DEBUG-[Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:22:47.885||DEBUG-[Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:22:47.887||DEBUG-[Trying to load META-INF/validation.xml for XML based Validator configuration.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-06 19:22:47.888||DEBUG-[Trying to load META-INF/validation.xml via user class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:22:47.889||DEBUG-[Trying to load META-INF/validation.xml via TCCL]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:22:47.889||DEBUG-[Trying to load META-INF/validation.xml via Hibernate Validator's class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:22:47.890||DEBUG-[No META-INF/validation.xml found. Using annotation based configuration only.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-06 19:22:48.246||INFO -[Tomcat initialized with port(s): 8080 (http)]-[o.s.b.c.e.t.TomcatEmbeddedServletContainer]-[main]
+|2018-03-06 19:22:48.256||INFO -[Starting service [Tomcat]]-[o.a.catalina.core.StandardService]-[main]
+|2018-03-06 19:22:48.257||INFO -[Starting Servlet Engine: Apache Tomcat/8.5.15]-[o.a.catalina.core.StandardEngine]-[main]
+|2018-03-06 19:22:48.570||INFO -[At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.]-[org.apache.jasper.servlet.TldScanner]-[localhost-startStop-1]
+|2018-03-06 19:22:48.575||INFO -[Initializing Spring embedded WebApplicationContext]-[o.a.c.c.C.[Tomcat].[localhost].[/]]-[localhost-startStop-1]
+|2018-03-06 19:22:48.576||INFO -[Root WebApplicationContext: initialization completed in 2163 ms]-[o.s.web.context.ContextLoader]-[localhost-startStop-1]
+|2018-03-06 19:22:48.773||INFO -[Mapping servlet: 'dispatcherServlet' to [/]]-[o.s.b.w.s.ServletRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:22:48.779||INFO -[Mapping filter: 'characterEncodingFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:22:48.780||INFO -[Mapping filter: 'hiddenHttpMethodFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:22:48.780||INFO -[Mapping filter: 'httpPutFormContentFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:22:48.780||INFO -[Mapping filter: 'requestContextFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:22:49.061||DEBUG-[Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.]-[o.h.v.i.e.r.DefaultTraversableResolver]-[main]
+|2018-03-06 19:22:49.062||DEBUG-[Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:22:49.062||DEBUG-[Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:22:49.062||DEBUG-[Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:22:49.063||DEBUG-[Trying to load META-INF/validation.xml for XML based Validator configuration.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-06 19:22:49.063||DEBUG-[Trying to load META-INF/validation.xml via user class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:22:49.063||DEBUG-[Trying to load META-INF/validation.xml via TCCL]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:22:49.063||DEBUG-[Trying to load META-INF/validation.xml via Hibernate Validator's class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:22:49.064||DEBUG-[No META-INF/validation.xml found. Using annotation based configuration only.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-06 19:22:49.085||INFO -[Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5158b42f: startup date [Tue Mar 06 19:22:46 CST 2018]; root of context hierarchy]-[o.s.w.s.m.m.a.RequestMappingHandlerAdapter]-[main]
+|2018-03-06 19:22:49.128||INFO -[Mapped "{[/test]}" onto public java.lang.String com.ecjtu.fbn.StartApp.test()]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-06 19:22:49.131||INFO -[Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-06 19:22:49.131||INFO -[Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-06 19:22:49.158||INFO -[Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]-[o.s.w.s.h.SimpleUrlHandlerMapping]-[main]
+|2018-03-06 19:22:49.159||INFO -[Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]-[o.s.w.s.h.SimpleUrlHandlerMapping]-[main]
+|2018-03-06 19:22:49.189||INFO -[Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]-[o.s.w.s.h.SimpleUrlHandlerMapping]-[main]
+|2018-03-06 19:22:49.368||DEBUG-[No org.mybatis.spring.mapper.MapperFactoryBean found.]-[o.m.s.b.a.MybatisAutoConfiguration]-[main]
+|2018-03-06 19:22:49.503||DEBUG-[Parsed configuration file: 'class path resource [config/mybatis-config.xml]']-[o.m.spring.SqlSessionFactoryBean]-[main]
+|2018-03-06 19:22:49.504||DEBUG-[Property 'mapperLocations' was not specified or no matching resources found]-[o.m.spring.SqlSessionFactoryBean]-[main]
+|2018-03-06 19:22:49.684||INFO -[Registering beans for JMX exposure on startup]-[o.s.j.e.a.AnnotationMBeanExporter]-[main]
+|2018-03-06 19:22:49.697||INFO -[Initializing ProtocolHandler ["http-nio-8080"]]-[o.a.coyote.http11.Http11NioProtocol]-[main]
+|2018-03-06 19:22:49.707||INFO -[Starting ProtocolHandler ["http-nio-8080"]]-[o.a.coyote.http11.Http11NioProtocol]-[main]
+|2018-03-06 19:22:49.711||ERROR-[Failed to start end point associated with ProtocolHandler ["http-nio-8080"]]-[o.a.coyote.http11.Http11NioProtocol]-[main]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:372)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1187)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1176)
+	at com.ecjtu.fbn.StartApp.main(StartApp.java:19)
+|2018-03-06 19:22:49.712||ERROR-[Failed to start connector [Connector[HTTP/1.1-8080]]]-[o.a.catalina.core.StandardService]-[main]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:372)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1187)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1176)
+	at com.ecjtu.fbn.StartApp.main(StartApp.java:19)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1029)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	... 14 common frames omitted
+|2018-03-06 19:22:49.729||INFO -[Pausing ProtocolHandler ["http-nio-8080"]]-[o.a.coyote.http11.Http11NioProtocol]-[main]
+|2018-03-06 19:22:49.729||INFO -[Stopping service [Tomcat]]-[o.a.catalina.core.StandardService]-[main]
+|2018-03-06 19:22:49.737||WARN -[The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:41)]-[o.a.c.loader.WebappClassLoaderBase]-[localhost-startStop-1]
+|2018-03-06 19:22:49.743||INFO -[The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.]-[o.apache.catalina.util.LifecycleBase]-[main]
+|2018-03-06 19:22:49.743||INFO -[Stopping ProtocolHandler ["http-nio-8080"]]-[o.a.coyote.http11.Http11NioProtocol]-[main]
+|2018-03-06 19:22:49.743||INFO -[Destroying ProtocolHandler ["http-nio-8080"]]-[o.a.coyote.http11.Http11NioProtocol]-[main]
+|2018-03-06 19:22:49.745||INFO -[
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.]-[o.s.b.a.l.AutoConfigurationReportLoggingInitializer]-[main]
+|2018-03-06 19:22:49.749||ERROR-[
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+]-[o.s.b.d.LoggingFailureAnalysisReporter]-[main]
+|2018-03-06 19:22:49.751||INFO -[Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5158b42f: startup date [Tue Mar 06 19:22:46 CST 2018]; root of context hierarchy]-[o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext]-[main]
+|2018-03-06 19:22:49.752||INFO -[Unregistering JMX-exposed beans on shutdown]-[o.s.j.e.a.AnnotationMBeanExporter]-[main]
+|2018-03-06 19:23:28.224||INFO -[Starting StartApp on DESKTOP-4I94FEJ with PID 408 (E:\workspace\GraduationDesign\doing\idea\fbn\out\production\classes started by Flyer in E:\workspace\GraduationDesign\doing\idea\fbn)]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-06 19:23:28.231||DEBUG-[Running with Spring Boot v1.4.7.RELEASE, Spring v4.3.9.RELEASE]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-06 19:23:28.232||INFO -[No active profile set, falling back to default profiles: default]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-06 19:23:28.413||INFO -[Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5158b42f: startup date [Tue Mar 06 19:23:28 CST 2018]; root of context hierarchy]-[o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext]-[main]
+|2018-03-06 19:23:28.419||DEBUG-[Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property]-[org.jboss.logging]-[background-preinit]
+|2018-03-06 19:23:28.421||INFO -[HV000001: Hibernate Validator 5.2.5.Final]-[o.h.validator.internal.util.Version]-[background-preinit]
+|2018-03-06 19:23:28.462||DEBUG-[Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.]-[o.h.v.i.e.r.DefaultTraversableResolver]-[background-preinit]
+|2018-03-06 19:23:29.589||WARN -[No MyBatis mapper was found in '[com.ecjtu.fbn.orm.mapper]' package. Please check your configuration.]-[o.m.s.mapper.ClassPathMapperScanner]-[main]
+|2018-03-06 19:23:29.832||DEBUG-[Searching for mappers annotated with @Mapper]-[o.m.s.b.a.MybatisAutoConfiguration]-[main]
+|2018-03-06 19:23:29.835||DEBUG-[Using auto-configuration base package 'com.ecjtu.fbn']-[o.m.s.b.a.MybatisAutoConfiguration]-[main]
+|2018-03-06 19:23:29.873||WARN -[No MyBatis mapper was found in '[com.ecjtu.fbn]' package. Please check your configuration.]-[o.m.s.mapper.ClassPathMapperScanner]-[main]
+|2018-03-06 19:23:30.487||DEBUG-[Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.]-[o.h.v.i.e.r.DefaultTraversableResolver]-[main]
+|2018-03-06 19:23:30.488||DEBUG-[Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:23:30.489||DEBUG-[Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:23:30.491||DEBUG-[Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:23:30.492||DEBUG-[Trying to load META-INF/validation.xml for XML based Validator configuration.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-06 19:23:30.494||DEBUG-[Trying to load META-INF/validation.xml via user class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:23:30.495||DEBUG-[Trying to load META-INF/validation.xml via TCCL]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:23:30.495||DEBUG-[Trying to load META-INF/validation.xml via Hibernate Validator's class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:23:30.495||DEBUG-[No META-INF/validation.xml found. Using annotation based configuration only.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-06 19:23:30.838||INFO -[Tomcat initialized with port(s): 8888 (http)]-[o.s.b.c.e.t.TomcatEmbeddedServletContainer]-[main]
+|2018-03-06 19:23:30.847||INFO -[Starting service [Tomcat]]-[o.a.catalina.core.StandardService]-[main]
+|2018-03-06 19:23:30.848||INFO -[Starting Servlet Engine: Apache Tomcat/8.5.15]-[o.a.catalina.core.StandardEngine]-[main]
+|2018-03-06 19:23:31.123||INFO -[At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.]-[org.apache.jasper.servlet.TldScanner]-[localhost-startStop-1]
+|2018-03-06 19:23:31.129||INFO -[Initializing Spring embedded WebApplicationContext]-[o.a.c.c.C.[Tomcat].[localhost].[/]]-[localhost-startStop-1]
+|2018-03-06 19:23:31.129||INFO -[Root WebApplicationContext: initialization completed in 2716 ms]-[o.s.web.context.ContextLoader]-[localhost-startStop-1]
+|2018-03-06 19:23:31.363||INFO -[Mapping servlet: 'dispatcherServlet' to [/]]-[o.s.b.w.s.ServletRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:23:31.368||INFO -[Mapping filter: 'characterEncodingFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:23:31.369||INFO -[Mapping filter: 'hiddenHttpMethodFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:23:31.370||INFO -[Mapping filter: 'httpPutFormContentFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:23:31.370||INFO -[Mapping filter: 'requestContextFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:23:31.601||DEBUG-[Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.]-[o.h.v.i.e.r.DefaultTraversableResolver]-[main]
+|2018-03-06 19:23:31.602||DEBUG-[Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:23:31.602||DEBUG-[Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:23:31.603||DEBUG-[Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:23:31.603||DEBUG-[Trying to load META-INF/validation.xml for XML based Validator configuration.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-06 19:23:31.603||DEBUG-[Trying to load META-INF/validation.xml via user class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:23:31.603||DEBUG-[Trying to load META-INF/validation.xml via TCCL]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:23:31.603||DEBUG-[Trying to load META-INF/validation.xml via Hibernate Validator's class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:23:31.603||DEBUG-[No META-INF/validation.xml found. Using annotation based configuration only.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-06 19:23:31.618||INFO -[Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5158b42f: startup date [Tue Mar 06 19:23:28 CST 2018]; root of context hierarchy]-[o.s.w.s.m.m.a.RequestMappingHandlerAdapter]-[main]
+|2018-03-06 19:23:31.663||INFO -[Mapped "{[/test]}" onto public java.lang.String com.ecjtu.fbn.StartApp.test()]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-06 19:23:31.667||INFO -[Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-06 19:23:31.668||INFO -[Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-06 19:23:31.693||INFO -[Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]-[o.s.w.s.h.SimpleUrlHandlerMapping]-[main]
+|2018-03-06 19:23:31.693||INFO -[Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]-[o.s.w.s.h.SimpleUrlHandlerMapping]-[main]
+|2018-03-06 19:23:31.723||INFO -[Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]-[o.s.w.s.h.SimpleUrlHandlerMapping]-[main]
+|2018-03-06 19:23:31.878||DEBUG-[No org.mybatis.spring.mapper.MapperFactoryBean found.]-[o.m.s.b.a.MybatisAutoConfiguration]-[main]
+|2018-03-06 19:23:32.068||DEBUG-[Parsed configuration file: 'class path resource [config/mybatis-config.xml]']-[o.m.spring.SqlSessionFactoryBean]-[main]
+|2018-03-06 19:23:32.069||DEBUG-[Property 'mapperLocations' was not specified or no matching resources found]-[o.m.spring.SqlSessionFactoryBean]-[main]
+|2018-03-06 19:23:32.313||INFO -[Registering beans for JMX exposure on startup]-[o.s.j.e.a.AnnotationMBeanExporter]-[main]
+|2018-03-06 19:23:32.330||INFO -[Initializing ProtocolHandler ["http-nio-8888"]]-[o.a.coyote.http11.Http11NioProtocol]-[main]
+|2018-03-06 19:23:32.343||INFO -[Starting ProtocolHandler ["http-nio-8888"]]-[o.a.coyote.http11.Http11NioProtocol]-[main]
+|2018-03-06 19:23:32.359||INFO -[Using a shared selector for servlet write/read]-[o.a.tomcat.util.net.NioSelectorPool]-[main]
+|2018-03-06 19:23:32.398||INFO -[Tomcat started on port(s): 8888 (http)]-[o.s.b.c.e.t.TomcatEmbeddedServletContainer]-[main]
+|2018-03-06 19:23:32.404||INFO -[Started StartApp in 4.986 seconds (JVM running for 7.895)]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-06 19:23:38.386||INFO -[Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.]-[o.a.coyote.http11.Http11Processor]-[http-nio-8888-exec-1]
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:422)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:683)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+|2018-03-06 19:23:57.635||INFO -[A cookie header was received [1516156838,1516239701,1517197204; Hm_lvt_3ec071cbe1c92def07a1010140ee841b=1516156031,1516156838,1516239701,1517197204; JSESSIONID=9C328473252E1271867BAC1734B3A6FC] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.]-[o.a.tomcat.util.http.parser.Cookie]-[http-nio-8888-exec-3]
+|2018-03-06 19:23:57.644||INFO -[Initializing Spring FrameworkServlet 'dispatcherServlet']-[o.a.c.c.C.[Tomcat].[localhost].[/]]-[http-nio-8888-exec-3]
+|2018-03-06 19:23:57.645||INFO -[FrameworkServlet 'dispatcherServlet': initialization started]-[o.s.web.servlet.DispatcherServlet]-[http-nio-8888-exec-3]
+|2018-03-06 19:23:57.685||INFO -[FrameworkServlet 'dispatcherServlet': initialization completed in 40 ms]-[o.s.web.servlet.DispatcherServlet]-[http-nio-8888-exec-3]
+|2018-03-06 19:23:58.402||INFO -[Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.]-[o.a.coyote.http11.Http11Processor]-[http-nio-8888-exec-4]
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:422)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:683)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+|2018-03-06 19:24:08.407||INFO -[Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.]-[o.a.coyote.http11.Http11Processor]-[http-nio-8888-exec-8]
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:422)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:683)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+|2018-03-06 19:28:19.619||INFO -[Starting StartApp on DESKTOP-4I94FEJ with PID 15988 (E:\workspace\GraduationDesign\doing\idea\fbn\out\production\classes started by Flyer in E:\workspace\GraduationDesign\doing\idea\fbn)]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-06 19:28:19.625||DEBUG-[Running with Spring Boot v1.4.7.RELEASE, Spring v4.3.9.RELEASE]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-06 19:28:19.625||INFO -[No active profile set, falling back to default profiles: default]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-06 19:28:19.798||INFO -[Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16293aa2: startup date [Tue Mar 06 19:28:19 CST 2018]; root of context hierarchy]-[o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext]-[main]
+|2018-03-06 19:28:19.850||DEBUG-[Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property]-[org.jboss.logging]-[background-preinit]
+|2018-03-06 19:28:19.852||INFO -[HV000001: Hibernate Validator 5.2.5.Final]-[o.h.validator.internal.util.Version]-[background-preinit]
+|2018-03-06 19:28:19.882||DEBUG-[Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.]-[o.h.v.i.e.r.DefaultTraversableResolver]-[background-preinit]
+|2018-03-06 19:28:20.724||WARN -[No MyBatis mapper was found in '[com.ecjtu.fbn.orm.mapper]' package. Please check your configuration.]-[o.m.s.mapper.ClassPathMapperScanner]-[main]
+|2018-03-06 19:28:20.853||DEBUG-[Searching for mappers annotated with @Mapper]-[o.m.s.b.a.MybatisAutoConfiguration]-[main]
+|2018-03-06 19:28:20.855||DEBUG-[Using auto-configuration base package 'com.ecjtu.fbn']-[o.m.s.b.a.MybatisAutoConfiguration]-[main]
+|2018-03-06 19:28:20.862||WARN -[No MyBatis mapper was found in '[com.ecjtu.fbn]' package. Please check your configuration.]-[o.m.s.mapper.ClassPathMapperScanner]-[main]
+|2018-03-06 19:28:21.416||DEBUG-[Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.]-[o.h.v.i.e.r.DefaultTraversableResolver]-[main]
+|2018-03-06 19:28:21.417||DEBUG-[Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:28:21.418||DEBUG-[Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:28:21.419||DEBUG-[Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:28:21.420||DEBUG-[Trying to load META-INF/validation.xml for XML based Validator configuration.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-06 19:28:21.421||DEBUG-[Trying to load META-INF/validation.xml via user class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:28:21.422||DEBUG-[Trying to load META-INF/validation.xml via TCCL]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:28:21.422||DEBUG-[Trying to load META-INF/validation.xml via Hibernate Validator's class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:28:21.423||DEBUG-[No META-INF/validation.xml found. Using annotation based configuration only.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-06 19:28:21.791||INFO -[Tomcat initialized with port(s): 8888 (http)]-[o.s.b.c.e.t.TomcatEmbeddedServletContainer]-[main]
+|2018-03-06 19:28:21.800||INFO -[Starting service [Tomcat]]-[o.a.catalina.core.StandardService]-[main]
+|2018-03-06 19:28:21.801||INFO -[Starting Servlet Engine: Apache Tomcat/8.5.15]-[o.a.catalina.core.StandardEngine]-[main]
+|2018-03-06 19:28:22.124||INFO -[At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.]-[org.apache.jasper.servlet.TldScanner]-[localhost-startStop-1]
+|2018-03-06 19:28:22.130||INFO -[Initializing Spring embedded WebApplicationContext]-[o.a.c.c.C.[Tomcat].[localhost].[/]]-[localhost-startStop-1]
+|2018-03-06 19:28:22.130||INFO -[Root WebApplicationContext: initialization completed in 2332 ms]-[o.s.web.context.ContextLoader]-[localhost-startStop-1]
+|2018-03-06 19:28:22.308||INFO -[Mapping servlet: 'dispatcherServlet' to [/]]-[o.s.b.w.s.ServletRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:28:22.313||INFO -[Mapping filter: 'characterEncodingFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:28:22.314||INFO -[Mapping filter: 'hiddenHttpMethodFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:28:22.314||INFO -[Mapping filter: 'httpPutFormContentFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:28:22.314||INFO -[Mapping filter: 'requestContextFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:28:22.567||DEBUG-[Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.]-[o.h.v.i.e.r.DefaultTraversableResolver]-[main]
+|2018-03-06 19:28:22.568||DEBUG-[Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:28:22.568||DEBUG-[Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:28:22.568||DEBUG-[Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:28:22.568||DEBUG-[Trying to load META-INF/validation.xml for XML based Validator configuration.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-06 19:28:22.568||DEBUG-[Trying to load META-INF/validation.xml via user class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:28:22.569||DEBUG-[Trying to load META-INF/validation.xml via TCCL]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:28:22.569||DEBUG-[Trying to load META-INF/validation.xml via Hibernate Validator's class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:28:22.569||DEBUG-[No META-INF/validation.xml found. Using annotation based configuration only.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-06 19:28:22.583||INFO -[Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16293aa2: startup date [Tue Mar 06 19:28:19 CST 2018]; root of context hierarchy]-[o.s.w.s.m.m.a.RequestMappingHandlerAdapter]-[main]
+|2018-03-06 19:28:22.626||INFO -[Mapped "{[/test]}" onto public java.lang.String com.ecjtu.fbn.StartApp.test()]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-06 19:28:22.630||INFO -[Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-06 19:28:22.630||INFO -[Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-06 19:28:22.660||INFO -[Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]-[o.s.w.s.h.SimpleUrlHandlerMapping]-[main]
+|2018-03-06 19:28:22.660||INFO -[Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]-[o.s.w.s.h.SimpleUrlHandlerMapping]-[main]
+|2018-03-06 19:28:22.708||INFO -[Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]-[o.s.w.s.h.SimpleUrlHandlerMapping]-[main]
+|2018-03-06 19:28:22.901||DEBUG-[No org.mybatis.spring.mapper.MapperFactoryBean found.]-[o.m.s.b.a.MybatisAutoConfiguration]-[main]
+|2018-03-06 19:28:23.054||DEBUG-[Parsed configuration file: 'class path resource [config/mybatis-config.xml]']-[o.m.spring.SqlSessionFactoryBean]-[main]
+|2018-03-06 19:28:23.055||DEBUG-[Property 'mapperLocations' was not specified or no matching resources found]-[o.m.spring.SqlSessionFactoryBean]-[main]
+|2018-03-06 19:28:23.234||INFO -[Registering beans for JMX exposure on startup]-[o.s.j.e.a.AnnotationMBeanExporter]-[main]
+|2018-03-06 19:28:23.248||INFO -[Initializing ProtocolHandler ["http-nio-8888"]]-[o.a.coyote.http11.Http11NioProtocol]-[main]
+|2018-03-06 19:28:23.258||INFO -[Starting ProtocolHandler ["http-nio-8888"]]-[o.a.coyote.http11.Http11NioProtocol]-[main]
+|2018-03-06 19:28:23.272||INFO -[Using a shared selector for servlet write/read]-[o.a.tomcat.util.net.NioSelectorPool]-[main]
+|2018-03-06 19:28:23.300||INFO -[Tomcat started on port(s): 8888 (http)]-[o.s.b.c.e.t.TomcatEmbeddedServletContainer]-[main]
+|2018-03-06 19:28:23.306||INFO -[Started StartApp in 4.276 seconds (JVM running for 7.528)]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-06 19:28:29.544||INFO -[Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.]-[o.a.coyote.http11.Http11Processor]-[http-nio-8888-exec-1]
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:422)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:683)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+|2018-03-06 19:28:57.808||INFO -[A cookie header was received [1516156838,1516239701,1517197204; Hm_lvt_3ec071cbe1c92def07a1010140ee841b=1516156031,1516156838,1516239701,1517197204; JSESSIONID=3344349DF9BA736FEB27F76306719082] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.]-[o.a.tomcat.util.http.parser.Cookie]-[http-nio-8888-exec-5]
+|2018-03-06 19:28:57.821||INFO -[Initializing Spring FrameworkServlet 'dispatcherServlet']-[o.a.c.c.C.[Tomcat].[localhost].[/]]-[http-nio-8888-exec-5]
+|2018-03-06 19:28:57.821||INFO -[FrameworkServlet 'dispatcherServlet': initialization started]-[o.s.web.servlet.DispatcherServlet]-[http-nio-8888-exec-5]
+|2018-03-06 19:28:57.860||INFO -[FrameworkServlet 'dispatcherServlet': initialization completed in 39 ms]-[o.s.web.servlet.DispatcherServlet]-[http-nio-8888-exec-5]
+|2018-03-06 19:29:19.560||INFO -[Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.]-[o.a.coyote.http11.Http11Processor]-[http-nio-8888-exec-5]
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:422)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:683)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+|2018-03-06 19:29:52.354||INFO -[Starting StartApp on DESKTOP-4I94FEJ with PID 16172 (E:\workspace\GraduationDesign\doing\idea\fbn\out\production\classes started by Flyer in E:\workspace\GraduationDesign\doing\idea\fbn)]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-06 19:29:52.357||DEBUG-[Running with Spring Boot v1.4.7.RELEASE, Spring v4.3.9.RELEASE]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-06 19:29:52.357||INFO -[No active profile set, falling back to default profiles: default]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-06 19:29:52.425||INFO -[Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16293aa2: startup date [Tue Mar 06 19:29:52 CST 2018]; root of context hierarchy]-[o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext]-[main]
+|2018-03-06 19:29:52.465||DEBUG-[Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property]-[org.jboss.logging]-[background-preinit]
+|2018-03-06 19:29:52.467||INFO -[HV000001: Hibernate Validator 5.2.5.Final]-[o.h.validator.internal.util.Version]-[background-preinit]
+|2018-03-06 19:29:52.517||DEBUG-[Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.]-[o.h.v.i.e.r.DefaultTraversableResolver]-[background-preinit]
+|2018-03-06 19:29:53.205||WARN -[No MyBatis mapper was found in '[com.ecjtu.fbn.orm.mapper]' package. Please check your configuration.]-[o.m.s.mapper.ClassPathMapperScanner]-[main]
+|2018-03-06 19:29:53.365||DEBUG-[Searching for mappers annotated with @Mapper]-[o.m.s.b.a.MybatisAutoConfiguration]-[main]
+|2018-03-06 19:29:53.369||DEBUG-[Using auto-configuration base package 'com.ecjtu.fbn']-[o.m.s.b.a.MybatisAutoConfiguration]-[main]
+|2018-03-06 19:29:53.378||WARN -[No MyBatis mapper was found in '[com.ecjtu.fbn]' package. Please check your configuration.]-[o.m.s.mapper.ClassPathMapperScanner]-[main]
+|2018-03-06 19:29:53.857||DEBUG-[Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.]-[o.h.v.i.e.r.DefaultTraversableResolver]-[main]
+|2018-03-06 19:29:53.858||DEBUG-[Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:29:53.859||DEBUG-[Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:29:53.860||DEBUG-[Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:29:53.861||DEBUG-[Trying to load META-INF/validation.xml for XML based Validator configuration.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-06 19:29:53.862||DEBUG-[Trying to load META-INF/validation.xml via user class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:29:53.863||DEBUG-[Trying to load META-INF/validation.xml via TCCL]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:29:53.863||DEBUG-[Trying to load META-INF/validation.xml via Hibernate Validator's class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:29:53.863||DEBUG-[No META-INF/validation.xml found. Using annotation based configuration only.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-06 19:29:54.185||INFO -[Tomcat initialized with port(s): 8888 (http)]-[o.s.b.c.e.t.TomcatEmbeddedServletContainer]-[main]
+|2018-03-06 19:29:54.195||INFO -[Starting service [Tomcat]]-[o.a.catalina.core.StandardService]-[main]
+|2018-03-06 19:29:54.196||INFO -[Starting Servlet Engine: Apache Tomcat/8.5.15]-[o.a.catalina.core.StandardEngine]-[main]
+|2018-03-06 19:29:54.457||INFO -[At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.]-[org.apache.jasper.servlet.TldScanner]-[localhost-startStop-1]
+|2018-03-06 19:29:54.461||INFO -[Initializing Spring embedded WebApplicationContext]-[o.a.c.c.C.[Tomcat].[localhost].[/]]-[localhost-startStop-1]
+|2018-03-06 19:29:54.461||INFO -[Root WebApplicationContext: initialization completed in 2036 ms]-[o.s.web.context.ContextLoader]-[localhost-startStop-1]
+|2018-03-06 19:29:54.605||INFO -[Mapping servlet: 'dispatcherServlet' to [/]]-[o.s.b.w.s.ServletRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:29:54.608||INFO -[Mapping filter: 'characterEncodingFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:29:54.609||INFO -[Mapping filter: 'hiddenHttpMethodFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:29:54.609||INFO -[Mapping filter: 'httpPutFormContentFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:29:54.609||INFO -[Mapping filter: 'requestContextFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:29:54.827||DEBUG-[Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.]-[o.h.v.i.e.r.DefaultTraversableResolver]-[main]
+|2018-03-06 19:29:54.828||DEBUG-[Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:29:54.828||DEBUG-[Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:29:54.829||DEBUG-[Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:29:54.829||DEBUG-[Trying to load META-INF/validation.xml for XML based Validator configuration.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-06 19:29:54.829||DEBUG-[Trying to load META-INF/validation.xml via user class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:29:54.830||DEBUG-[Trying to load META-INF/validation.xml via TCCL]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:29:54.830||DEBUG-[Trying to load META-INF/validation.xml via Hibernate Validator's class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:29:54.830||DEBUG-[No META-INF/validation.xml found. Using annotation based configuration only.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-06 19:29:54.844||INFO -[Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16293aa2: startup date [Tue Mar 06 19:29:52 CST 2018]; root of context hierarchy]-[o.s.w.s.m.m.a.RequestMappingHandlerAdapter]-[main]
+|2018-03-06 19:29:54.900||INFO -[Mapped "{[/test]}" onto public java.lang.String com.ecjtu.fbn.StartApp.test()]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-06 19:29:54.904||INFO -[Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-06 19:29:54.905||INFO -[Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-06 19:29:54.930||INFO -[Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]-[o.s.w.s.h.SimpleUrlHandlerMapping]-[main]
+|2018-03-06 19:29:54.930||INFO -[Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]-[o.s.w.s.h.SimpleUrlHandlerMapping]-[main]
+|2018-03-06 19:29:54.959||INFO -[Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]-[o.s.w.s.h.SimpleUrlHandlerMapping]-[main]
+|2018-03-06 19:29:55.107||DEBUG-[No org.mybatis.spring.mapper.MapperFactoryBean found.]-[o.m.s.b.a.MybatisAutoConfiguration]-[main]
+|2018-03-06 19:29:55.242||DEBUG-[Parsed configuration file: 'class path resource [config/mybatis-config.xml]']-[o.m.spring.SqlSessionFactoryBean]-[main]
+|2018-03-06 19:29:55.243||DEBUG-[Property 'mapperLocations' was not specified or no matching resources found]-[o.m.spring.SqlSessionFactoryBean]-[main]
+|2018-03-06 19:29:55.427||INFO -[Registering beans for JMX exposure on startup]-[o.s.j.e.a.AnnotationMBeanExporter]-[main]
+|2018-03-06 19:29:55.442||INFO -[Initializing ProtocolHandler ["http-nio-8888"]]-[o.a.coyote.http11.Http11NioProtocol]-[main]
+|2018-03-06 19:29:55.452||INFO -[Starting ProtocolHandler ["http-nio-8888"]]-[o.a.coyote.http11.Http11NioProtocol]-[main]
+|2018-03-06 19:29:55.465||INFO -[Using a shared selector for servlet write/read]-[o.a.tomcat.util.net.NioSelectorPool]-[main]
+|2018-03-06 19:29:55.491||INFO -[Tomcat started on port(s): 8888 (http)]-[o.s.b.c.e.t.TomcatEmbeddedServletContainer]-[main]
+|2018-03-06 19:29:55.496||INFO -[Started StartApp in 3.936 seconds (JVM running for 6.811)]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-06 19:30:00.714||INFO -[Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.]-[o.a.coyote.http11.Http11Processor]-[http-nio-8888-exec-2]
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:422)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:683)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+|2018-03-06 19:30:03.491||INFO -[A cookie header was received [1516156838,1516239701,1517197204; Hm_lvt_3ec071cbe1c92def07a1010140ee841b=1516156031,1516156838,1516239701,1517197204; JSESSIONID=8683DD328F7F7A0ADB77B43892EA8265] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.]-[o.a.tomcat.util.http.parser.Cookie]-[http-nio-8888-exec-1]
+|2018-03-06 19:30:03.505||INFO -[Initializing Spring FrameworkServlet 'dispatcherServlet']-[o.a.c.c.C.[Tomcat].[localhost].[/]]-[http-nio-8888-exec-1]
+|2018-03-06 19:30:03.505||INFO -[FrameworkServlet 'dispatcherServlet': initialization started]-[o.s.web.servlet.DispatcherServlet]-[http-nio-8888-exec-1]
+|2018-03-06 19:30:03.529||INFO -[FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms]-[o.s.web.servlet.DispatcherServlet]-[http-nio-8888-exec-1]
+|2018-03-06 19:33:32.340||INFO -[Starting StartApp on DESKTOP-4I94FEJ with PID 4072 (E:\workspace\GraduationDesign\doing\idea\fbn\out\production\classes started by Flyer in E:\workspace\GraduationDesign\doing\idea\fbn)]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-06 19:33:32.345||DEBUG-[Running with Spring Boot v1.4.7.RELEASE, Spring v4.3.9.RELEASE]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-06 19:33:32.346||INFO -[No active profile set, falling back to default profiles: default]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-06 19:33:32.706||INFO -[Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16293aa2: startup date [Tue Mar 06 19:33:32 CST 2018]; root of context hierarchy]-[o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext]-[main]
+|2018-03-06 19:33:32.729||DEBUG-[Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property]-[org.jboss.logging]-[background-preinit]
+|2018-03-06 19:33:32.759||INFO -[HV000001: Hibernate Validator 5.2.5.Final]-[o.h.validator.internal.util.Version]-[background-preinit]
+|2018-03-06 19:33:32.918||DEBUG-[Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.]-[o.h.v.i.e.r.DefaultTraversableResolver]-[background-preinit]
+|2018-03-06 19:33:33.619||WARN -[No MyBatis mapper was found in '[com.ecjtu.fbn.orm.mapper]' package. Please check your configuration.]-[o.m.s.mapper.ClassPathMapperScanner]-[main]
+|2018-03-06 19:33:33.713||DEBUG-[Searching for mappers annotated with @Mapper]-[o.m.s.b.a.MybatisAutoConfiguration]-[main]
+|2018-03-06 19:33:33.714||DEBUG-[Using auto-configuration base package 'com.ecjtu.fbn']-[o.m.s.b.a.MybatisAutoConfiguration]-[main]
+|2018-03-06 19:33:33.720||WARN -[No MyBatis mapper was found in '[com.ecjtu.fbn]' package. Please check your configuration.]-[o.m.s.mapper.ClassPathMapperScanner]-[main]
+|2018-03-06 19:33:34.118||DEBUG-[Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.]-[o.h.v.i.e.r.DefaultTraversableResolver]-[main]
+|2018-03-06 19:33:34.119||DEBUG-[Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:33:34.119||DEBUG-[Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:33:34.120||DEBUG-[Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:33:34.122||DEBUG-[Trying to load META-INF/validation.xml for XML based Validator configuration.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-06 19:33:34.124||DEBUG-[Trying to load META-INF/validation.xml via user class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:33:34.125||DEBUG-[Trying to load META-INF/validation.xml via TCCL]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:33:34.125||DEBUG-[Trying to load META-INF/validation.xml via Hibernate Validator's class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:33:34.126||DEBUG-[No META-INF/validation.xml found. Using annotation based configuration only.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-06 19:33:34.549||INFO -[Tomcat initialized with port(s): 8888 (http)]-[o.s.b.c.e.t.TomcatEmbeddedServletContainer]-[main]
+|2018-03-06 19:33:34.559||INFO -[Starting service [Tomcat]]-[o.a.catalina.core.StandardService]-[main]
+|2018-03-06 19:33:34.561||INFO -[Starting Servlet Engine: Apache Tomcat/8.5.15]-[o.a.catalina.core.StandardEngine]-[main]
+|2018-03-06 19:33:34.995||INFO -[At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.]-[org.apache.jasper.servlet.TldScanner]-[localhost-startStop-1]
+|2018-03-06 19:33:35.001||INFO -[Initializing Spring embedded WebApplicationContext]-[o.a.c.c.C.[Tomcat].[localhost].[/]]-[localhost-startStop-1]
+|2018-03-06 19:33:35.001||INFO -[Root WebApplicationContext: initialization completed in 2295 ms]-[o.s.web.context.ContextLoader]-[localhost-startStop-1]
+|2018-03-06 19:33:35.143||INFO -[Mapping servlet: 'dispatcherServlet' to [/]]-[o.s.b.w.s.ServletRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:33:35.148||INFO -[Mapping filter: 'characterEncodingFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:33:35.149||INFO -[Mapping filter: 'hiddenHttpMethodFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:33:35.149||INFO -[Mapping filter: 'httpPutFormContentFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:33:35.149||INFO -[Mapping filter: 'requestContextFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:33:35.377||DEBUG-[Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.]-[o.h.v.i.e.r.DefaultTraversableResolver]-[main]
+|2018-03-06 19:33:35.377||DEBUG-[Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:33:35.377||DEBUG-[Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:33:35.378||DEBUG-[Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:33:35.378||DEBUG-[Trying to load META-INF/validation.xml for XML based Validator configuration.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-06 19:33:35.378||DEBUG-[Trying to load META-INF/validation.xml via user class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:33:35.378||DEBUG-[Trying to load META-INF/validation.xml via TCCL]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:33:35.378||DEBUG-[Trying to load META-INF/validation.xml via Hibernate Validator's class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:33:35.379||DEBUG-[No META-INF/validation.xml found. Using annotation based configuration only.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-06 19:33:35.398||INFO -[Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16293aa2: startup date [Tue Mar 06 19:33:32 CST 2018]; root of context hierarchy]-[o.s.w.s.m.m.a.RequestMappingHandlerAdapter]-[main]
+|2018-03-06 19:33:35.448||INFO -[Mapped "{[/test]}" onto public java.lang.String com.ecjtu.fbn.StartApp.test()]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-06 19:33:35.452||INFO -[Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-06 19:33:35.452||INFO -[Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-06 19:33:35.477||INFO -[Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]-[o.s.w.s.h.SimpleUrlHandlerMapping]-[main]
+|2018-03-06 19:33:35.477||INFO -[Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]-[o.s.w.s.h.SimpleUrlHandlerMapping]-[main]
+|2018-03-06 19:33:35.507||INFO -[Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]-[o.s.w.s.h.SimpleUrlHandlerMapping]-[main]
+|2018-03-06 19:33:35.707||DEBUG-[No org.mybatis.spring.mapper.MapperFactoryBean found.]-[o.m.s.b.a.MybatisAutoConfiguration]-[main]
+|2018-03-06 19:33:35.887||DEBUG-[Parsed configuration file: 'class path resource [config/mybatis-config.xml]']-[o.m.spring.SqlSessionFactoryBean]-[main]
+|2018-03-06 19:33:35.887||DEBUG-[Property 'mapperLocations' was not specified or no matching resources found]-[o.m.spring.SqlSessionFactoryBean]-[main]
+|2018-03-06 19:33:36.061||INFO -[Registering beans for JMX exposure on startup]-[o.s.j.e.a.AnnotationMBeanExporter]-[main]
+|2018-03-06 19:33:36.078||INFO -[Initializing ProtocolHandler ["http-nio-8888"]]-[o.a.coyote.http11.Http11NioProtocol]-[main]
+|2018-03-06 19:33:36.087||INFO -[Starting ProtocolHandler ["http-nio-8888"]]-[o.a.coyote.http11.Http11NioProtocol]-[main]
+|2018-03-06 19:33:36.100||INFO -[Using a shared selector for servlet write/read]-[o.a.tomcat.util.net.NioSelectorPool]-[main]
+|2018-03-06 19:33:36.131||INFO -[Tomcat started on port(s): 8888 (http)]-[o.s.b.c.e.t.TomcatEmbeddedServletContainer]-[main]
+|2018-03-06 19:33:36.135||INFO -[Started StartApp in 4.728 seconds (JVM running for 8.756)]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-06 19:34:17.691||INFO -[A cookie header was received [1516156838,1516239701,1517197204; Hm_lvt_3ec071cbe1c92def07a1010140ee841b=1516156031,1516156838,1516239701,1517197204] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.]-[o.a.tomcat.util.http.parser.Cookie]-[http-nio-8888-exec-1]
+|2018-03-06 19:34:17.698||INFO -[Initializing Spring FrameworkServlet 'dispatcherServlet']-[o.a.c.c.C.[Tomcat].[localhost].[/]]-[http-nio-8888-exec-1]
+|2018-03-06 19:34:17.698||INFO -[FrameworkServlet 'dispatcherServlet': initialization started]-[o.s.web.servlet.DispatcherServlet]-[http-nio-8888-exec-1]
+|2018-03-06 19:34:17.717||INFO -[FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms]-[o.s.web.servlet.DispatcherServlet]-[http-nio-8888-exec-1]
+|2018-03-06 19:35:28.409||INFO -[Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.]-[o.a.coyote.http11.Http11Processor]-[http-nio-8888-exec-6]
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:422)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:683)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+|2018-03-06 19:37:26.156||INFO -[Starting StartApp on DESKTOP-4I94FEJ with PID 5664 (E:\workspace\GraduationDesign\doing\idea\fbn\out\production\classes started by Flyer in E:\workspace\GraduationDesign\doing\idea\fbn)]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-06 19:37:26.160||DEBUG-[Running with Spring Boot v1.4.7.RELEASE, Spring v4.3.9.RELEASE]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-06 19:37:26.160||INFO -[No active profile set, falling back to default profiles: default]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-06 19:37:26.308||INFO -[Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40db2a24: startup date [Tue Mar 06 19:37:26 CST 2018]; root of context hierarchy]-[o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext]-[main]
+|2018-03-06 19:37:26.358||DEBUG-[Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property]-[org.jboss.logging]-[background-preinit]
+|2018-03-06 19:37:26.359||INFO -[HV000001: Hibernate Validator 5.2.5.Final]-[o.h.validator.internal.util.Version]-[background-preinit]
+|2018-03-06 19:37:26.422||DEBUG-[Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.]-[o.h.v.i.e.r.DefaultTraversableResolver]-[background-preinit]
+|2018-03-06 19:37:27.216||WARN -[No MyBatis mapper was found in '[com.ecjtu.fbn.orm.mapper]' package. Please check your configuration.]-[o.m.s.mapper.ClassPathMapperScanner]-[main]
+|2018-03-06 19:37:27.328||DEBUG-[Searching for mappers annotated with @Mapper]-[o.m.s.b.a.MybatisAutoConfiguration]-[main]
+|2018-03-06 19:37:27.330||DEBUG-[Using auto-configuration base package 'com.ecjtu.fbn']-[o.m.s.b.a.MybatisAutoConfiguration]-[main]
+|2018-03-06 19:37:27.338||WARN -[No MyBatis mapper was found in '[com.ecjtu.fbn]' package. Please check your configuration.]-[o.m.s.mapper.ClassPathMapperScanner]-[main]
+|2018-03-06 19:37:27.921||DEBUG-[Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.]-[o.h.v.i.e.r.DefaultTraversableResolver]-[main]
+|2018-03-06 19:37:27.923||DEBUG-[Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:37:27.924||DEBUG-[Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:37:27.925||DEBUG-[Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:37:27.927||DEBUG-[Trying to load META-INF/validation.xml for XML based Validator configuration.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-06 19:37:27.929||DEBUG-[Trying to load META-INF/validation.xml via user class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:37:27.930||DEBUG-[Trying to load META-INF/validation.xml via TCCL]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:37:27.930||DEBUG-[Trying to load META-INF/validation.xml via Hibernate Validator's class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:37:27.930||DEBUG-[No META-INF/validation.xml found. Using annotation based configuration only.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-06 19:37:28.387||INFO -[Tomcat initialized with port(s): 8888 (http)]-[o.s.b.c.e.t.TomcatEmbeddedServletContainer]-[main]
+|2018-03-06 19:37:28.399||INFO -[Starting service [Tomcat]]-[o.a.catalina.core.StandardService]-[main]
+|2018-03-06 19:37:28.400||INFO -[Starting Servlet Engine: Apache Tomcat/8.5.15]-[o.a.catalina.core.StandardEngine]-[main]
+|2018-03-06 19:37:28.752||INFO -[At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.]-[org.apache.jasper.servlet.TldScanner]-[localhost-startStop-1]
+|2018-03-06 19:37:28.758||INFO -[Initializing Spring embedded WebApplicationContext]-[o.a.c.c.C.[Tomcat].[localhost].[/]]-[localhost-startStop-1]
+|2018-03-06 19:37:28.758||INFO -[Root WebApplicationContext: initialization completed in 2450 ms]-[o.s.web.context.ContextLoader]-[localhost-startStop-1]
+|2018-03-06 19:37:28.957||INFO -[Mapping servlet: 'dispatcherServlet' to [/]]-[o.s.b.w.s.ServletRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:37:28.965||INFO -[Mapping filter: 'characterEncodingFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:37:28.966||INFO -[Mapping filter: 'hiddenHttpMethodFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:37:28.966||INFO -[Mapping filter: 'httpPutFormContentFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:37:28.966||INFO -[Mapping filter: 'requestContextFilter' to: [/*]]-[o.s.b.w.s.FilterRegistrationBean]-[localhost-startStop-1]
+|2018-03-06 19:37:29.279||DEBUG-[Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.]-[o.h.v.i.e.r.DefaultTraversableResolver]-[main]
+|2018-03-06 19:37:29.280||DEBUG-[Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:37:29.280||DEBUG-[Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:37:29.280||DEBUG-[Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47]-[o.h.v.i.engine.ConfigurationImpl]-[main]
+|2018-03-06 19:37:29.281||DEBUG-[Trying to load META-INF/validation.xml for XML based Validator configuration.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-06 19:37:29.281||DEBUG-[Trying to load META-INF/validation.xml via user class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:37:29.281||DEBUG-[Trying to load META-INF/validation.xml via TCCL]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:37:29.281||DEBUG-[Trying to load META-INF/validation.xml via Hibernate Validator's class loader]-[o.h.v.i.xml.ResourceLoaderHelper]-[main]
+|2018-03-06 19:37:29.281||DEBUG-[No META-INF/validation.xml found. Using annotation based configuration only.]-[o.h.v.i.xml.ValidationXmlParser]-[main]
+|2018-03-06 19:37:29.303||INFO -[Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40db2a24: startup date [Tue Mar 06 19:37:26 CST 2018]; root of context hierarchy]-[o.s.w.s.m.m.a.RequestMappingHandlerAdapter]-[main]
+|2018-03-06 19:37:29.362||INFO -[Mapped "{[/test]}" onto public java.lang.String com.ecjtu.fbn.StartApp.test()]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-06 19:37:29.366||INFO -[Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-06 19:37:29.367||INFO -[Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]-[o.s.w.s.m.m.a.RequestMappingHandlerMapping]-[main]
+|2018-03-06 19:37:29.402||INFO -[Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]-[o.s.w.s.h.SimpleUrlHandlerMapping]-[main]
+|2018-03-06 19:37:29.402||INFO -[Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]-[o.s.w.s.h.SimpleUrlHandlerMapping]-[main]
+|2018-03-06 19:37:29.441||INFO -[Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]-[o.s.w.s.h.SimpleUrlHandlerMapping]-[main]
+|2018-03-06 19:37:29.609||DEBUG-[No org.mybatis.spring.mapper.MapperFactoryBean found.]-[o.m.s.b.a.MybatisAutoConfiguration]-[main]
+|2018-03-06 19:37:29.777||DEBUG-[Parsed configuration file: 'class path resource [config/mybatis-config.xml]']-[o.m.spring.SqlSessionFactoryBean]-[main]
+|2018-03-06 19:37:29.778||DEBUG-[Property 'mapperLocations' was not specified or no matching resources found]-[o.m.spring.SqlSessionFactoryBean]-[main]
+|2018-03-06 19:37:30.068||INFO -[Registering beans for JMX exposure on startup]-[o.s.j.e.a.AnnotationMBeanExporter]-[main]
+|2018-03-06 19:37:30.084||INFO -[Initializing ProtocolHandler ["http-nio-8888"]]-[o.a.coyote.http11.Http11NioProtocol]-[main]
+|2018-03-06 19:37:30.096||INFO -[Starting ProtocolHandler ["http-nio-8888"]]-[o.a.coyote.http11.Http11NioProtocol]-[main]
+|2018-03-06 19:37:30.117||INFO -[Using a shared selector for servlet write/read]-[o.a.tomcat.util.net.NioSelectorPool]-[main]
+|2018-03-06 19:37:30.150||INFO -[Tomcat started on port(s): 8888 (http)]-[o.s.b.c.e.t.TomcatEmbeddedServletContainer]-[main]
+|2018-03-06 19:37:30.154||INFO -[Started StartApp in 4.67 seconds (JVM running for 8.846)]-[com.ecjtu.fbn.StartApp]-[main]
+|2018-03-06 19:37:30.502||INFO -[Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.]-[o.a.coyote.http11.Http11Processor]-[http-nio-8888-exec-1]
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:422)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:683)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+|2018-03-06 19:37:41.521||INFO -[A cookie header was received [1516156838,1516239701,1517197204; Hm_lvt_3ec071cbe1c92def07a1010140ee841b=1516156031,1516156838,1516239701,1517197204; JSESSIONID=8E24FE2C6C52B3F790ABB6E9FA4610B8] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.]-[o.a.tomcat.util.http.parser.Cookie]-[http-nio-8888-exec-4]
+|2018-03-06 19:37:41.529||INFO -[Initializing Spring FrameworkServlet 'dispatcherServlet']-[o.a.c.c.C.[Tomcat].[localhost].[/]]-[http-nio-8888-exec-4]
+|2018-03-06 19:37:41.530||INFO -[FrameworkServlet 'dispatcherServlet': initialization started]-[o.s.web.servlet.DispatcherServlet]-[http-nio-8888-exec-4]
+|2018-03-06 19:37:41.566||INFO -[FrameworkServlet 'dispatcherServlet': initialization completed in 36 ms]-[o.s.web.servlet.DispatcherServlet]-[http-nio-8888-exec-4]
+|2018-03-06 19:38:40.515||INFO -[Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.]-[o.a.coyote.http11.Http11Processor]-[http-nio-8888-exec-2]
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:422)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:683)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
